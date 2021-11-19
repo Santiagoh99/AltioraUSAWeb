@@ -1,0 +1,202 @@
+body{
+    font-family: Optima, sans-serif;
+    color: rgb(17, 17, 17);
+    font-size: 1.3em;
+    line-height: 1.6em;
+    margin: 0;
+}
+h1{
+    font-size: 1rem;
+    line-height: 1em;
+}
+p{
+    margin-bottom: 1.6em;
+}
+.container{
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.header{
+    padding: 1rem 0; 
+    background: white;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+}
+     .header a{
+       color:rgb(20, 20, 20) ;
+       text-decoration: none ;
+       font-size: 80% ;
+    }
+    header.major {
+		margin: 0 0 1em 0;
+	}
+		header.major p {
+			margin: 0.7em 0 0 0;
+		}
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    letter-spacing: 3px;
+    font-size: 1em;
+}
+.menu-icon{
+    display: none;
+}
+.navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+     .navigation ul li{
+        display: inline-block;
+     }
+        .navigation ul li a{
+          display: block;
+          padding: 0.3rem ;
+          transition: all 0.5s linear;
+          border-radius: 5px;
+        }
+
+@media (max-width: 900px ) {
+
+ .menu-icon{
+     display: block;
+     cursor: pointer;
+     padding: 0.3rem ;
+ }
+  .navigation{
+      width: 100%;
+      margin-top: 0rem;
+  }
+.navigation ul {
+    display: none;
+ }
+    .navigation ul.show {
+       display: block;
+    }
+         .navigation ul li{
+            display: block;
+         }
+            .navigation ul li a{
+              display: block;
+              padding: 0.3rem ;
+              transition: all 0.5s linear;
+              border-radius: 5px;
+            }
+            .navigation ul li a:hover{
+                background: #4a4a4a;
+              }
+}
+.banner{
+	width: 100%;
+	height: 600px;
+	animation: banner 10s infinite linear alternate;
+	background-size: 100% 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+@keyframes banner{
+	0%, 20%{
+		background-image: url("img02.jpg");
+	}
+	25%, 45%{
+		background-image: url("https://i.pinimg.com/originals/b9/1d/fd/b91dfdd21cf816a69ed544d6800680a4.jpg");
+
+    }
+	50%, 70%{
+		background-image: url("img01.jpg");
+	}
+	75%, 100%{
+		background-image: url("https://i.pinimg.com/originals/55/5e/52/555e52ca50443a4d366858dc5c83d540.jpg");
+	}
+}
+.info{
+	z-index: 5;
+	width: 100%;
+	max-width: 750px;
+	text-align: center;
+}
+.info h1{
+	color: white;
+	font-size: 40px;
+	letter-spacing: 1px;
+    font-size: 182% ;
+}
+.info p{
+	color: rgb(255, 255, 255);
+	line-height: 2;
+	margin-bottom: 1px;
+    font-size: 132% ;
+}
+.info a{
+	color: #fff;
+	text-decoration: none;
+	background: transparent;
+	padding: 16px 37px;
+	display: inline-block;
+	border-radius: 50px;
+}
+.info hr{
+    width: 55%;
+}
+.box{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 50px;
+    box-sizing: border-box;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 10px 50px rgba(0, 0, 0, .5);
+    transition: 0.5s;
+}
+.box:hover{
+box-shadow: 0 15px 30px rgba(0, 0, 0, .5);
+}
+             .box h2{
+                font-size: 120% ;
+                text-align: center;
+                margin: 0 auto;
+                 }
+             .box hr{
+                 width: 100px;
+                 border: 0.5px solid red;
+             }
+             .box p{
+                font-size: 60% ;
+                line-height: 1.5;
+            }
+            .box ul li{
+                font-size: 60% ;
+                line-height: 1.5;
+            }
+@media (max-width: 740px ) {
+     .box{
+        position: absolute;
+        top: 110%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        padding: 50px;
+        box-sizing: border-box;
+        background: #fff;
+        border-radius: 4px;
+        box-shadow: 0 10px 50px rgba(0, 0, 0, .5);
+        transition: 0.5s;
+    }
+   }
+
+.Services {
+    display: grid;
+    grid-column-gap: 505 30% 20%;
+    column-gap: 10px;
+}
