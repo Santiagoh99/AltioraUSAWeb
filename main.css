@@ -106,14 +106,14 @@ p{
 }
 @keyframes banner{
 	0%, 20%{
-		background-image: url("img02.jpg");
+		background-image: url("image/img02.jpg");
 	}
 	25%, 45%{
 		background-image: url("https://i.pinimg.com/originals/b9/1d/fd/b91dfdd21cf816a69ed544d6800680a4.jpg");
 
     }
 	50%, 70%{
-		background-image: url("img01.jpg");
+		background-image: url("image/img01.jpg");
 	}
 	75%, 100%{
 		background-image: url("https://i.pinimg.com/originals/55/5e/52/555e52ca50443a4d366858dc5c83d540.jpg");
@@ -148,55 +148,130 @@ p{
 .info hr{
     width: 55%;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 520px 520px ;
+    grid-template-rows: 215px 215px ;
+    justify-content: center;
+}
+    .grid-container div{   
+        background-color: rgb(250, 250, 250);
+        border: 1px solid #ffffff;
+        color: black;
+    }
+    .grid-container h4{   
+        font-size: 85% ;
+        line-height: 0.3;
+        text-align: center;
+    }
+    .grid-container p{
+        font-size: 60% ;
+        line-height: 1.5;
+        text-align: center;
+        margin: 20px 50px;
+    }
+    .grid-container i{
+      font-size: 50px;
+      margin: 20px 230px;
+    }
+
+section {
+    min-height: 560px;
+    display: block;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin: 73px auto;
+}           
+.imagenes-mask{
+  background: url(image/img01.jpg);
+  background-size: cover !important;
+  content: ”;
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 100%;
+  clip-path: polygon(21% 0, 90% 0, 77% 100%, 8% 100%);
+}
+    .imagenes-mask h1 {
+        color: white;
+        font-size: 150% ;
+        line-height: 1.5;
+        text-align: center;
+        justify-content: center;
+        margin: 15px auto;
+      }
+      .imagenes-mask  hr{
+        width: 100px;
+        border: 0.5px solid red;
+    }
+     .imagenes-mask p {
+        color: white;
+        font-size: 70% ;
+        line-height: 1.5;
+        margin: 40px 450px;
+      }
+      .imagenes-mask  img {
+        width: 45%;
+      }
+.grid-container {
+    display: grid;
+    grid-template-columns: 520px 520px ;
+    grid-template-rows: 215px 215px ;
+    justify-content: center;
+}
+        .grid-container div{   
+            background-color: rgb(250, 250, 250);
+            border: 1px solid #ffffff;
+            color: black;
+        }
+        .grid-container h4{   
+            font-size: 85% ;
+            line-height: 0.3;
+            text-align: center;
+        }
+        .grid-container p{
+            font-size: 60% ;
+            line-height: 1.5;
+            text-align: center;
+            margin: 20px 50px;
+        }
+        .grid-container i{
+          font-size: 50px;
+          margin: 20px 230px;
+        }
 .box{
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    padding: 50px;
-    box-sizing: border-box;
-    background: #fff;
-    border-radius: 4px;
-    box-shadow: 0 10px 50px rgba(0, 0, 0, .5);
+    padding: 60px;
     transition: 0.5s;
+    width: 51%;
+    justify-content: center;
+    margin: 5px auto;
 }
 .box:hover{
 box-shadow: 0 15px 30px rgba(0, 0, 0, .5);
 }
-             .box h2{
-                font-size: 120% ;
-                text-align: center;
-                margin: 0 auto;
-                 }
-             .box hr{
-                 width: 100px;
-                 border: 0.5px solid red;
+         .box h2{
+            font-size: 120% ;
+            text-align: center;
+            margin: 0 auto;
              }
-             .box p{
-                font-size: 60% ;
-                line-height: 1.5;
-            }
-            .box ul li{
-                font-size: 60% ;
-                line-height: 1.5;
-            }
-@media (max-width: 740px ) {
-     .box{
-        position: absolute;
-        top: 110%;
-        left: 50%;
-        transform: translate(-50%,-50%);
-        padding: 50px;
-        box-sizing: border-box;
-        background: #fff;
-        border-radius: 4px;
-        box-shadow: 0 10px 50px rgba(0, 0, 0, .5);
-        transition: 0.5s;
-    }
-   }
-
-.Services {
-    display: grid;
-    grid-column-gap: 505 30% 20%;
-    column-gap: 10px;
-}
+         .box hr{
+             width: 100px;
+             border: 0.5px solid red;
+         }
+         .box img{
+            width:40%;
+            float: left;
+            padding: 0px 25px 0px 0px;
+            border: 13px solid #ffffff;
+            margin: none;
+             }
+         .box p{
+            font-size: 60% ;
+            line-height: 1.5;
+        }
+        .box ul li{
+            font-size: 60% ;
+            line-height: 1.5;
+        }
