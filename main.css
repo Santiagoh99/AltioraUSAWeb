@@ -68,6 +68,8 @@ body{
        .navigation{
            width: 100%;
            margin-top: 0rem;
+           background-color: white;
+           text-align: center;
        }
       .navigation ul {
          display: none;
@@ -85,7 +87,7 @@ body{
                    border-radius: 5px;
                  }
                  .navigation ul li a:hover{
-                     background: #4a4a4a;
+                     background: rgba(12, 12, 12, 0.13);
                    }
     }
     /*--------------------banner----------------------*/
@@ -141,23 +143,41 @@ body{
      .info hr{
          width: 55%;
      }
-    /*--------------------banner----------------------*/
+     @media all and (max-width: 850px ) {
+        .info h2{
+            color: white;
+            font-size: 15px;
+        }
+        .info h1{
+            color: white;
+            font-size: 28px;
+            letter-spacing: 1px;
+        }
+        .info p{
+            color: rgb(255, 255, 255);
+            line-height: 2;
+            margin-bottom: 1px;
+           font-size: 122% ;
+        }
+        
+    }
+    /*--------------------grid 1----------------------*/
 .grid-container {
     display: grid;
-    grid-template-columns: 600px 600px ;
+    grid-template-columns: 500px 500px ;
     grid-template-rows: 200px 200px ;
     justify-content: center;
-    margin: 0 auto;
+    align-items: center;
 }
     .item1{
-        grid-area: 1 / 1 /2 /3 ;
+        grid-column: 1 / span 2;
     }
     .grid-container h2{   
         font-size: 150% ;
         line-height: 0.3;
+        padding: 10px;
         text-align: center;
         align-items: center;
-        padding: 10px;
     }
     .grid-container h4{   
         font-size: 100% ;
@@ -172,8 +192,6 @@ body{
     .grid-container p{
         font-size: 70% ;
         line-height: 1.5;
-        text-align: center;
-        align-items: center;
         margin: 20px 40px;
         color: grey;
     }
@@ -188,6 +206,17 @@ body{
         display: block;
         align-items: center;
         text-align: center;
+    }
+    @media all and (max-width: 1200px ) {
+        .itemmin,.itemmin1,.itemmin2,.itemmin3{
+            grid-column: 1/ span 2;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 500px ;
+            grid-template-rows: 200px  ;
+            font-size: 88%;
+        }
     }
     /*--------------------section----------------------*/
 section {
