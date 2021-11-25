@@ -6,7 +6,6 @@ body{
     margin: 0 auto;
     position: relative;
     padding-bottom: 2em;
-    min-height: 100vh;
 }
 .container{
     width: 100%;
@@ -63,7 +62,7 @@ body{
       .menu-icon{
           display: block;
           cursor: pointer;
-          padding: 0.3rem 2rem ;
+          padding: 0.3rem 5rem ;
       }
       .logo{
         letter-spacing: 3px;
@@ -97,7 +96,6 @@ body{
     }
     /*--------------------banner----------------------*/
 .banner{
-	width: 100%;
 	height: 550px;
 	animation: banner 8s infinite linear alternate;
 	background-size: 100% 100%;
@@ -148,14 +146,14 @@ body{
      .info hr{
          width: 55%;
      }
-     @media all and (max-width: 850px ) {
+     @media all and (max-width: 580px ) {
         .info h2{
             color: white;
-            font-size: 15px;
+            font-size: 13px;
         }
         .info h1{
             color: white;
-            font-size: 28px;
+            font-size: 25px;
             letter-spacing: 1px;
         }
         .info p{
@@ -212,7 +210,7 @@ body{
         align-items: center;
         text-align: center;
     }
-    @media all and (max-width: 1200px ) {
+    @media all and (max-width: 930px ) {
         .itemmin,.itemmin1,.itemmin2,.itemmin3{
             grid-column: 1/ span 2;
         }
@@ -222,16 +220,24 @@ body{
             grid-template-rows: 200px  ;
             font-size: 88%;
         }
+        .grid-container h2{   
+            font-size: 110% ;
+        }
     }
     /*--------------------section----------------------*/
-section {
+    .Especialistas {
     min-height: 410px;
     display: block;
     align-items: center;
     text-align: center;
     position: relative;
     margin: 25px auto;
-} 
+    } 
+    @media all and (max-width: 1120px ) {
+        .Especialistas {
+            min-height: 370px;
+            } 
+    }
     /*--------------------mask 1----------------------*/          
 .imagenes-mask{
   background: url(image/img03.jpg);
@@ -243,7 +249,7 @@ section {
         text-align: center;
         justify-content: center;
         margin: 1px auto;
-        padding: 5px
+        padding: 5px;
     }      
       .imagenes-mask  hr{
         width: 100px;
@@ -256,7 +262,7 @@ section {
       .imagenes-mask  img {
         width: 45%;
       }
-      @media all and (max-width: 1200px ) {
+      @media all and (max-width: 1120px ) {
         .imagenes-mask{
             background: url(image/img03.jpg);
             background-size: cover !important;
@@ -267,9 +273,9 @@ section {
             color: rgb(255, 255, 255);
           }
           .imagenes-mask  img {
-            width: 70%;
+            width: 50%;
           }
-    }
+      }
     /*--------------------grid 2----------------------*/         
 .grid-container-Servis  {
     display: grid;
@@ -302,6 +308,7 @@ section {
                 grid-auto-rows: minmax(10px, 150px);
             }
         }
+
     /*--------------------grid 3----------------------*/    
 .grid-container-clientes {
     display: grid;
@@ -328,7 +335,7 @@ section {
             .grid-container-clientes {
                 display: grid;
                 grid-template-columns: 500px ;
-                grid-auto-rows: minmax(10px, 250px);
+                grid-auto-rows: minmax(10px, 150px);
             }}
     /*--------------------marca----------------------*/  
     .swiper {
@@ -340,27 +347,36 @@ section {
         width: 50%;
         height: 50%;
         object-fit: cover;
-      }   
+      }  
+ /*--------------------section----------------------*/
+    .altiora {
+        min-height: 640px;
+        display: block;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        margin: 10px auto;
+    }      
  /*--------------------mask 2----------------------*/ 
 .imagenes-mask2{
     background: url(image/img07.jpg);
     background-size: cover !important;
     position: absolute;
     width: 100%;
-    clip-path: inset(0 22% 38% 22%);
+    clip-path: inset(0 22% 0 22%);
   }
   @media all and (max-width: 1500px ) {
     .imagenes-mask2{
         background: url(image/img07.jpg);
         background-size: cover !important;
-        clip-path: polygon(0 0, 100% 0, 100% 63%, 0 63%);
+        clip-path: inset(0 0 0 0);
       }
 }
     /*--------------------grid 4----------------------*/    
 .grid-container-altiora {
  display: grid;
  grid-template-columns: 238px 238px 238px;
- grid-template-rows: 110px 110px 20px;
+ grid-template-rows: 110px ;
  justify-content: center;
  }
      .item5{
@@ -395,7 +411,7 @@ section {
         .grid-container-altiora {
             display: grid;
             grid-template-columns: 150px 150px 150px;
-            grid-template-rows: 110px 110px 20px;
+            grid-template-rows: 110px ;
             justify-content: center;
         }
         .grid-container-altiora p{
@@ -406,8 +422,9 @@ section {
 .grid-container-altiora2 {
    display: grid;
    grid-template-columns: 300px 300px ;
-   grid-template-rows: 450px 450px ;
+   grid-template-rows: 420px ;
    justify-content: center;
+   align-items: center;
    }
     .grid-container-altiora2 h4{   
         font-size: 125% ;
@@ -425,71 +442,75 @@ section {
         color: grey;
         width: 110px;
         height: 20px;
-        align-items: center;
     }
     @media all and (max-width: 1200px ) {
         .grid-container-altiora2 {
             display: grid;
             grid-template-columns: 200px 200px ;
-            grid-template-rows: 450px 450px ;
-            justify-content: center;
+            grid-template-rows: minmax(10px, 405px);
+            }
+            .grid-container-altiora2 img{   
+                width: 120%;
             }
     }
     /*--------------------box----------------------*/ 
-.box{
-    transition: 0.5s;
+.box-contactanos{
     justify-content: center;
     text-align: center;
-    background-color: black;
-    color: white;
+    margin: 5px auto;
 }
-        .box h2{
-           font-size: 150% ;
+        .box-contactanos h2{
+            font-size: 150% ;
+            text-align: center;
+            justify-content: center;
+            padding: 10px ;
+            margin: 8px auto;
             }
-        .box hr{
+        .box-contactanos hr{
             width: 100px;
             border: 0.5px solid blue;
         } 
-        .box p{
-           font-size: 80% ;
+        .box-contactanos p{
+            font-size: 80% ;
+            line-height: 1.1;
+            margin: 10px auto;
         }
     /*--------------------grid 6----------------------*/
 .grid-container-contactanos  {
     display: grid;
     grid-template-columns: 15% 15% 15% 15%;
+    grid-template-rows: 220px ;
     justify-content: center;
-    background-color: black;
-    color: white;
 }
-     .grid-container-contactanos  div{
-         font-size: 100% ;
-         text-align: center;
-         margin: 20px 50px;
-     }
      .grid-container-contactanos  p{
-        font-size: 15px;
+        font-size: 90%;
         margin: 1px auto;
+        text-align: center;
       }
      .grid-container-contactanos  i{
        font-size: 35px;
        margin: 10px 50px;
        color: rgb(41, 149, 250);
      }
+     @media all and (max-width: 1370px ) {
+        .grid-container-contactanos {
+            display: grid;
+            grid-template-columns: 50% ;
+            grid-template-rows: minmax(10px, 106px);
+            justify-content: center;
+        }
+    }
     /*--------------------footer----------------------*/
-.footer{
+footer{
     background-color: black;
     bottom: 0;
-    width: 100%;
+    left: 0;
+    right: 0;
     position: absolute;
-    color: gray; 
 }
-     .footer h1{
-        font-size: 13px;
-        float: left;
-        margin: 8px 385px;
-     }
-     .footer p{
-        font-size: 13px;
-        float: right;
-        margin: 8px 387px;
-     }
+    footer p{
+       color: gray; 
+       text-align: center;
+       font-size: 70%;
+       margin: 0 auto;
+    }
