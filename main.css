@@ -220,40 +220,51 @@ body{
     }
     /*--------------------section----------------------*/
 section {
-    min-height: 540px;
+    min-height: 410px;
     display: block;
     align-items: center;
     text-align: center;
     position: relative;
-    margin: 83px auto;
+    margin: 25px auto;
 } 
     /*--------------------mask 1----------------------*/          
 .imagenes-mask{
   background: url(image/img03.jpg);
   background-size: cover !important;
-  position: absolute;
-  top: -50px;
   clip-path: polygon(17% 0, 90% 0, 82% 100%, 8% 100%);
 }
     .imagenes-mask h1 {
         font-size: 150% ;
-        line-height: 1.5;
         text-align: center;
         justify-content: center;
-        margin: 15px auto;
-      }
+        margin: 1px auto;
+        padding: 5px
+    }      
       .imagenes-mask  hr{
         width: 100px;
         border: 0.5px solid blue;
     }
      .imagenes-mask p {
-        font-size: 70% ;
-        line-height: 1.5;
-        margin: 40px 450px;
+        font-size: 80% ;
+        line-height: 1.1;
       }
       .imagenes-mask  img {
         width: 45%;
       }
+      @media all and (max-width: 1200px ) {
+        .imagenes-mask{
+            background: url(image/img03.jpg);
+            background-size: cover !important;
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+          }
+          .imagenes-mask p {
+            font-size: 70% ;
+            color: rgb(255, 255, 255);
+          }
+          .imagenes-mask  img {
+            width: 70%;
+          }
+    }
     /*--------------------grid 2----------------------*/         
 .grid-container-Servis  {
     display: grid;
@@ -275,51 +286,71 @@ section {
         }
         .grid-container-Servis  i{
           font-size: 50px;
-          margin: 10px 115px;
+          width: 100%;
+          text-align: center;
           color: rgb(41, 149, 250);
+        }
+        @media all and (max-width: 1600px ) {
+            .grid-container-Servis  {
+                display: grid;
+                grid-template-columns: 500px ;
+                grid-auto-rows: minmax(10px, 150px);
+            }
         }
     /*--------------------grid 3----------------------*/    
 .grid-container-clientes {
     display: grid;
-    grid-template-columns: 650px 650px ;
-    grid-template-rows: 150px 150px ;
+    grid-template-columns: 650px ;
+    grid-auto-rows: minmax(10px, 150px);
     justify-content: center;
 }
-     .item2{
-         grid-area: 1/1/2/3;
-     }
     .grid-container-clientes hr{   
         width: 50px;
         border: 0.5px solid blue;
     }
      .grid-container-clientes h1{   
          font-size: 150% ;
-         line-height: 0.3;
          text-align: center;
-         align-items: center;
-         padding: 10px;
      }
      .grid-container-clientes p{
          font-size: 70% ;
-         line-height: 1.5;
+         line-height: 1.3;
          text-align: center;
          align-items: center;
-         margin: 20px 40px;
          color: grey;
      }
-     .item3{
-        grid-area: 2/1/3/3;
-    } 
-         .swiper {
-             width: 80%;
-             height: 80%;
-           }
-           .swiper-slide img {
-             display: block;
-             width:50%;
-             height: 50%;
-             object-fit: cover;
-           }
+           @media all and (max-width: 1400px ) {
+            .grid-container-clientes {
+                display: grid;
+                grid-template-columns: 500px ;
+                grid-auto-rows: minmax(10px, 250px);
+            }}
+    /*--------------------marca----------------------*/  
+    .swiper {
+        width: 60%;
+        height: 60%;
+      }
+      .swiper-slide img {
+        display: block;
+        width: 50%;
+        height: 50%;
+        object-fit: cover;
+      }   
+ /*--------------------mask 2----------------------*/ 
+.imagenes-mask2{
+    background: url(image/img07.jpg);
+    background-size: cover !important;
+    position: absolute;
+    width: 100%;
+    clip-path: inset(0 22% 38% 22%);
+  }
+  @media all and (max-width: 1500px ) {
+    .imagenes-mask2{
+        background: url(image/img07.jpg);
+        background-size: cover !important;
+        clip-path: polygon(0 0, 100% 0, 100% 63%, 0 63%);
+      }
+}
     /*--------------------grid 4----------------------*/    
 .grid-container-altiora {
  display: grid;
@@ -355,6 +386,17 @@ section {
          margin: 20px 40px;
          color: grey;
      }
+     @media all and (max-width: 1200px ) {
+        .grid-container-altiora {
+            display: grid;
+            grid-template-columns: 150px 150px 150px;
+            grid-template-rows: 110px 110px 20px;
+            justify-content: center;
+        }
+        .grid-container-altiora p{
+            font-size: 60% ;
+        }
+    }
     /*--------------------grid 5----------------------*/   
 .grid-container-altiora2 {
    display: grid;
@@ -380,23 +422,18 @@ section {
         height: 20px;
         align-items: center;
     }
-    /*--------------------mask 2----------------------*/ 
-.imagenes-mask2{
-    background: url(image/img07.jpg);
-    background-size: cover !important;
-    content: ”;
-    position: absolute;
-    top: -50px;
-    left: 0;
-    width: 100%;
-    clip-path: inset(0 22% 38% 22%);
-  }
+    @media all and (max-width: 1200px ) {
+        .grid-container-altiora2 {
+            display: grid;
+            grid-template-columns: 200px 200px ;
+            grid-template-rows: 450px 450px ;
+            justify-content: center;
+            }
+    }
     /*--------------------box----------------------*/ 
 .box{
-    padding: 60px;
     transition: 0.5s;
     justify-content: center;
-    margin: 5px auto;
     text-align: center;
     background-color: black;
     color: white;
