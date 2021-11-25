@@ -63,8 +63,13 @@ body{
       .menu-icon{
           display: block;
           cursor: pointer;
-          padding: 0.3rem ;
+          padding: 0.3rem 2rem ;
       }
+      .logo{
+        letter-spacing: 3px;
+        font-size: 1em;
+        padding: 0rem 2rem ;
+    }
        .navigation{
            width: 100%;
            margin-top: 0rem;
