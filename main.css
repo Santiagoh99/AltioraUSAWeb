@@ -94,6 +94,13 @@ body{
                      background: rgba(12, 12, 12, 0.13);
                    }
     }
+    @media (max-width: 400px ) {
+        .menu-icon{
+            display: block;
+            cursor: pointer;
+            padding: 0.1rem 2rem ;
+        }
+      }
     /*--------------------banner----------------------*/
 .banner{
 	height: 550px;
@@ -161,8 +168,24 @@ body{
             line-height: 2;
             margin-bottom: 1px;
            font-size: 122% ;
+        }  
+    }
+    @media all and (max-width: 500px ) {
+        .info h2{
+            color: white;
+            font-size: 12px;
         }
-        
+        .info h1{
+            color: white;
+            font-size: 20px;
+            letter-spacing: 1px;
+        }
+        .info p{
+            color: rgb(255, 255, 255);
+            line-height: 2;
+            margin-bottom: 1px;
+           font-size: 102% ;
+        }  
     }
     /*--------------------grid 1----------------------*/
 .grid-container {
@@ -224,6 +247,20 @@ body{
             font-size: 110% ;
         }
     }
+    @media all and (max-width: 500px ) {
+        .itemmin,.itemmin1,.itemmin2,.itemmin3{
+            grid-column: 1/ span 2;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 400px ;
+            grid-template-rows: 200px  ;
+            font-size: 88%;
+        }
+        .grid-container h2{   
+            font-size: 110% ;
+        }
+    }
     /*--------------------section----------------------*/
     .Especialistas {
     min-height: 410px;
@@ -236,6 +273,11 @@ body{
     @media all and (max-width: 1120px ) {
         .Especialistas {
             min-height: 370px;
+            } 
+    }
+    @media all and (max-width: 500px ) {
+        .Especialistas {
+            min-height: 300px;
             } 
     }
     /*--------------------mask 1----------------------*/          
@@ -276,6 +318,19 @@ body{
             width: 50%;
           }
       }
+      @media all and (max-width: 500px ) {
+        .imagenes-mask h1 {
+            font-size: 130% ;
+            text-align: center;
+            justify-content: center;
+            margin: 1px auto;
+            padding: 5px;
+        }  
+          .imagenes-mask p {
+            font-size: 60% ;
+            color: rgb(255, 255, 255);
+          }
+      }
     /*--------------------grid 2----------------------*/         
 .grid-container-Servis  {
     display: grid;
@@ -307,8 +362,26 @@ body{
                 grid-template-columns: 500px ;
                 grid-auto-rows: minmax(10px, 150px);
             }
+            .grid-container-Servis  i{
+                font-size: 40px;
+              }
         }
-
+        @media all and (max-width: 400px ) {
+            .grid-container-Servis  {
+                display: grid;
+                grid-template-columns: 400px ;
+                grid-auto-rows: minmax(10px, 100px);
+            }
+            .grid-container-Servis  h4{   
+                font-size: 60% ;
+            }
+            .grid-container-Servis  p{
+                font-size: 45% ;
+            }
+              .grid-container-Servis  i{
+                  font-size: 20px;
+                }
+        }
     /*--------------------grid 3----------------------*/    
 .grid-container-clientes {
     display: grid;
@@ -336,7 +409,15 @@ body{
                 display: grid;
                 grid-template-columns: 500px ;
                 grid-auto-rows: minmax(10px, 150px);
-            }}
+            }
+           }
+           @media all and (max-width: 500px ) {
+            .grid-container-clientes {
+                display: grid;
+                grid-template-columns: 350px ;
+                grid-auto-rows: minmax(10px, 150px);
+            }
+           }
     /*--------------------marca----------------------*/  
     .swiper {
         width: 60%;
@@ -418,6 +499,17 @@ body{
             font-size: 60% ;
         }
     }
+    @media all and (max-width: 500px ) {
+        .grid-container-altiora {
+            grid-template-columns: 120px 120px 120px;
+        }
+        .grid-container-altiora h2{   
+            font-size: 130% ;
+        }
+        .grid-container-altiora p{
+            font-size: 50% ;
+        }
+    }
     /*--------------------grid 5----------------------*/   
 .grid-container-altiora2 {
    display: grid;
@@ -451,6 +543,19 @@ body{
             }
             .grid-container-altiora2 img{   
                 width: 120%;
+            }
+    }
+    @media all and (max-width: 500px ) {
+        .grid-container-altiora2 {
+            display: grid;
+            grid-template-columns: 200px 200px ;
+            grid-template-rows: minmax(10px, 390px);
+            }       
+             .grid-container-altiora2 h4{   
+            font-size: 105% ;
+        }
+            .grid-container-altiora2 img{   
+                width: 80%;
             }
     }
     /*--------------------box----------------------*/ 
@@ -499,6 +604,14 @@ body{
             grid-template-rows: minmax(10px, 106px);
             justify-content: center;
         }
+        .grid-container-contactanos  i{
+            font-size: 30px;
+          }
+    }
+    @media all and (max-width: 500px ) {
+        .grid-container-contactanos  i{
+            font-size: 20px;
+          }
     }
     /*--------------------footer----------------------*/
 footer{
