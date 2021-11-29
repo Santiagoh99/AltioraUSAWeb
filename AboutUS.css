@@ -1,0 +1,64 @@
+/*--------------------grid 1----------------------*/    
+    .clientes {
+        display: grid;
+        grid-template-columns: 800px ;
+        grid-template-rows: 200px ;
+        justify-content: center;
+        padding: 4rem;
+
+    }
+        .clientes hr{   
+            width: 50px;
+            border: 0.5px solid blue;
+        }
+         .clientes h1{   
+             font-size: 150% ;
+             text-align: center;
+         }
+         .clientes p{
+             font-size: 70% ;
+             line-height: 1.3;
+             text-align: center;
+             align-items: center;
+             color: grey;
+         }
+/*--------------------grid 2----------------------*/    
+.Certificaciones {
+    display: grid;
+    grid-template-columns: 800px ;
+    grid-template-rows: 150px;
+    justify-content: center;
+}
+    .Certificaciones hr{   
+        width: 50px;
+        border: 0.5px solid blue;
+    }
+     .Certificaciones h1{   
+         font-size: 150% ;
+         text-align: center;
+     }
+     .Certificaciones p{
+         font-size: 70% ;
+         line-height: 1.3;
+         text-align: center;
+         align-items: center;
+         color: grey;
+     }
+/*--------------------flex-box ----------------------*/    
+.Certificaciones2 {
+    display: flex;
+    background-color: yellow;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid black;  
+}
+  .Certificaciones2 div{
+      background-color: gainsboro;
+      width: 100px;
+      margin: 10px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px;
+      border: 2px solid black;
+
+  }

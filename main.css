@@ -5,7 +5,7 @@ body{
     line-height: 1.6em;
     margin: 0 auto;
     position: relative;
-    padding-bottom: 2em;
+    padding-bottom: 1em;
 }
 .container{
     width: 100%;
@@ -113,10 +113,10 @@ body{
 }
      @keyframes banner{
      	0%, 50%{
-     		background-image: url("image/img05.jpg");
+     		background-image: url("image/inicio/img05.jpg");
          }
      	55%, 100%{
-     		background-image: url("image/img04.jpg");
+     		background-image: url("image/inicio/img04.jpg");
      	}
      }
      .info{
@@ -431,7 +431,7 @@ body{
     }
     /*--------------------mask 1----------------------*/          
 .imagenes-mask{
-  background: url(image/img03.jpg);
+  background: url(image/inicio/img03.jpg);
   background-size: cover !important;
   clip-path: polygon(17% 0, 90% 0, 82% 100%, 8% 100%);
 }
@@ -455,7 +455,7 @@ body{
       }
       @media all and (max-width: 1120px ) {
         .imagenes-mask{
-            background: url(image/img03.jpg);
+            background: url(image/inicio/img03.jpg);
             background-size: cover !important;
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
           }
@@ -589,7 +589,7 @@ body{
     }      
  /*--------------------mask 2----------------------*/ 
 .imagenes-mask2{
-    background: url(image/img07.jpg);
+    background: url(image/inicio/img07.jpg);
     background-size: cover !important;
     position: absolute;
     width: 100%;
@@ -597,7 +597,7 @@ body{
   }
   @media all and (max-width: 1500px ) {
     .imagenes-mask2{
-        background: url(image/img07.jpg);
+        background: url(image/inicio/img07.jpg);
         background-size: cover !important;
         clip-path: inset(0 0 0 0);
       }
@@ -712,6 +712,8 @@ body{
     justify-content: center;
     text-align: center;
     margin: 5px auto;
+    background-color: black;
+    color: white;
 }
         .box-contactanos h2{
             font-size: 150% ;
@@ -735,6 +737,8 @@ body{
     grid-template-columns: 15% 15% 15% 15%;
     grid-template-rows: 150px ;
     justify-content: center;
+    background-color: black;
+    color: white;
 }
      .grid-container-contactanos  p{
         font-size: 90%;
@@ -749,8 +753,8 @@ body{
      @media all and (max-width: 1370px ) {
         .grid-container-contactanos {
             display: grid;
-            grid-template-columns: 50% ;
-            grid-template-rows: minmax(10px, 106px);
+            grid-template-columns: 60% ;
+            grid-template-rows: 99px 99px 99px 99px ;
             justify-content: center;
         }
         .grid-container-contactanos  i{
