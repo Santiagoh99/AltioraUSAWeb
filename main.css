@@ -733,7 +733,7 @@ body{
 .grid-container-contactanos  {
     display: grid;
     grid-template-columns: 15% 15% 15% 15%;
-    grid-template-rows: 220px ;
+    grid-template-rows: 150px ;
     justify-content: center;
 }
      .grid-container-contactanos  p{
