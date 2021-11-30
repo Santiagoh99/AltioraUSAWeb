@@ -589,15 +589,14 @@ body{
     }      
  /*--------------------mask 2----------------------*/ 
 .imagenes-mask2{
-    background: url(image/inicio/img07.jpg);
-    background-size: cover !important;
-    position: absolute;
-    width: 100%;
-    clip-path: inset(0 22% 0 22%);
+    background: url(image/inicio/img01.gif) no-repeat center center fixed;
+    background-size: 30% !important;
+    height: 650px;
+    overflow: hidden;
   }
   @media all and (max-width: 1500px ) {
     .imagenes-mask2{
-        background: url(image/inicio/img07.jpg);
+        background: url(image/inicio/img01.gif);
         background-size: cover !important;
         clip-path: inset(0 0 0 0);
       }
@@ -707,7 +706,7 @@ body{
                 width: 80%;
             }
     }
-    /*--------------------box----------------------*/ 
+ /*--------------------box----------------------*/ 
 .box-contactanos{
     justify-content: center;
     text-align: center;
