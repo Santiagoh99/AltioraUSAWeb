@@ -269,6 +269,21 @@ body{
         align-items: center;
         text-align: center;
     }
+@media all and (max-width: 720px ) {
+    iframe{
+        position:absolute;
+        height: 300px;
+        width: 450px;
+        }
+    }
+@media all and (max-width: 430px ) {
+    iframe{
+        position:absolute;
+        height: 150px;
+        width: 250px;
+        }
+    }
+    
     /*--------------------video 1----------------------*/    
 .video-container{
     position: fixed;
@@ -277,7 +292,7 @@ body{
     width: 100%;
     height: 100%;
     z-index: 99999;
-    background-color: rgba(222, 184, 135, 0.13);
+    background-color: rgba(49, 42, 31, 0.541);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -285,11 +300,11 @@ body{
     pointer-events: none;
     transition: all 0.3s;
 }
-           .video-container .close{
+       .video-container .close{
             position: absolute;
-            top: 250px; 
-            right: 550px;
-           font-size: 30px;
+            top: 200px; 
+            right: 570px;
+           font-size: 40px;
            cursor: pointer;
            color: rgb(180, 180, 180);
            }
@@ -305,7 +320,7 @@ body{
         width: 100%;
         height: 100%;
         z-index: 99999;
-        background-color: rgba(222, 184, 135, 0.13);
+        background-color: rgba(49, 42, 31, 0.541);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -314,12 +329,12 @@ body{
         transition: all 0.3s;
     }
             .video-container2 .close2{
-             position: absolute;
-             top: 250px; 
-             right: 550px;
-            font-size: 30px;
-            cursor: pointer;
-            color: rgb(180, 180, 180);
+                position: absolute;
+                top: 200px; 
+                right: 570px;
+               font-size: 40px;
+               cursor: pointer;
+               color: rgb(180, 180, 180);
             }
             .video-container2.show{
                 pointer-events: all;
@@ -333,7 +348,7 @@ body{
         width: 100%;
         height: 100%;
         z-index: 99999;
-        background-color: rgba(222, 184, 135, 0.13);
+        background-color: rgba(49, 42, 31, 0.541);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -342,12 +357,12 @@ body{
         transition: all 0.3s;
     }
             .video-container3 .close3{
-             position: absolute;
-             top: 250px; 
-             right: 550px;
-            font-size: 30px;
-            cursor: pointer;
-            color: rgb(180, 180, 180);
+                position: absolute;
+                top: 200px; 
+                right: 570px;
+               font-size: 40px;
+               cursor: pointer;
+               color: rgb(180, 180, 180);
             }
             .video-container3.show{
                 pointer-events: all;
@@ -361,7 +376,7 @@ body{
         width: 100%;
         height: 100%;
         z-index: 99999;
-        background-color: rgba(222, 184, 135, 0.13);
+        background-color: rgba(49, 42, 31, 0.541);
         display: flex;
         align-items: center;
         justify-content: center;
@@ -370,17 +385,72 @@ body{
         transition: all 0.3s;
     }
             .video-container4 .close4{
-             position: absolute;
-             top: 250px; 
-             right: 550px;
-            font-size: 30px;
-            cursor: pointer;
-            color: rgb(180, 180, 180);
+                position: absolute;
+                top: 200px; 
+                right: 570px;
+               font-size: 40px;
+               cursor: pointer;
+               color: rgb(180, 180, 180);
             }
             .video-container4.show{
                 pointer-events: all;
                 opacity: 1;
              }
+/*--------------------video media----------------------*/
+@media all and (max-width: 720px ) {
+    .video-container .close{
+       top: 250px;
+       right: 100px;
+       }
+    .video-container2 .close2{
+     top: 250px;
+     right: 100px;
+     }
+    .video-container3 .close3{
+        top: 250px;
+        right: 100px;
+        }
+    .video-container4 .close4{
+        top: 250px;
+        right: 100px;
+        }   
+}
+ @media all and (max-width: 500px ) {
+    .video-container .close{
+        top: 320px;
+        right: 70px;
+       }
+    .video-container2 .close2{
+     top: 320px;
+     right: 70px;
+    }
+    .video-container3 .close3{
+     top: 320px;
+     right: 70px;
+    }
+    .video-container4 .close4{
+     top: 320px;
+     right: 70px;
+    }     
+}
+@media all and (max-width: 400px ) {
+    .video-container .close{
+        top: 400px;
+        right: 70px;
+       }
+    .video-container2 .close2{
+     top: 400px;
+     right: 70px;
+    }
+    .video-container3 .close3{
+     top: 400px;
+     right: 70px;
+    }
+    .video-container4 .close4{
+     top: 400px;
+     right: 70px;
+    }
+}
     /*--------------------grid 1 media----------------------*/
     @media all and (max-width: 930px ) {
         .itemmin,.itemmin1,.itemmin2,.itemmin3{
