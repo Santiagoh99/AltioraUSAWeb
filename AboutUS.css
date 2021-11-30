@@ -24,8 +24,8 @@
          }
  /*--------------------mask 2----------------------*/ 
  .fondoSomos{
-    background: url(image/inicio/img09.gif) no-repeat center center fixed;
-    background-size: 55% !important;
+    background: url(image/inicio/img02.png) no-repeat center center fixed;
+    background-size: 50% !important;
     height: 550px;
     overflow: hidden;
   }
