@@ -1,8 +1,8 @@
 .grid-container-contact  {
     display: grid;
-    grid-template-columns: 40% 40% ;
+    grid-template-columns: 30% 30% ;
     grid-gap: 10px;
-    grid-auto-rows: minmax(10px, 546px);
+    grid-auto-rows: minmax(10px, 565px);
     justify-content: center;
     padding: 90px 1px 1px 1px;
 }
@@ -58,6 +58,7 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
+    resize: none;
   }
 @media all and (max-width: 1220px ) {
     .grid-container-contact  {
