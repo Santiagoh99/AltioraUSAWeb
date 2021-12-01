@@ -4,7 +4,7 @@
     grid-gap: 10px;
     grid-auto-rows: minmax(10px, 546px);
     justify-content: center;
-    padding: 90px 1px 20px 1px;
+    padding: 90px 1px 1px 1px;
 }
         .grid-container-contact  h4{   
             font-size: 85% ;
@@ -58,4 +58,31 @@ textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
+  }
+@media all and (max-width: 1220px ) {
+    .grid-container-contact  {
+        grid-template-columns: 60% ;
+    }
+  }
+@media all and (max-width: 825px ) {
+  .grid-container-contact iframe{
+    position:absolute;
+    height: 400px;
+    width: 400px;
+    border: 0;
+    }
+}
+@media all and (max-width: 530px ) {
+    .grid-container-contact iframe{
+      position:absolute;
+      height: 200px;
+      width: 300px;
+      border: 0;
+      }
+      .grid-container-contact  h4{   
+        font-size: 45% ;
+    }
+    .grid-container-contact  p{
+        font-size: 30% ;
+    }
   }
