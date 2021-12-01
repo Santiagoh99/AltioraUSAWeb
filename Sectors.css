@@ -1,0 +1,68 @@
+/*--------------------grid 1----------------------*/    
+.Sectores {
+    display: grid;
+    grid-template-columns: 1000px ;
+    grid-template-rows: 130px;
+    justify-content: center;
+    text-align: center;
+    padding: 90px 1px 20px 1px;
+}
+    .Sectores hr{   
+        width: 800px;
+        border: 0.3px solid blue;
+    }
+     .Sectores h1{   
+         font-size: 150% ;
+         text-align: center;
+     }
+     .Sectores p{
+        font-size: 85% ;
+        line-height: 1.5;
+        text-align: center;
+        align-items: center;
+        color: grey;
+     }
+   /*--------------------grid 2----------------------*/         
+   .grid-container-Sectores2  {
+    display: grid;
+    grid-template-columns: 13% 13% 13% 13% 13%;
+    grid-auto-rows: minmax(10px, 180px);
+    justify-content: center;
+}
+        .grid-container-Sectores2  h4{   
+            font-size: 75% ;
+            line-height: 0.2;
+            text-align: center;
+        }
+        .grid-container-Sectores2  p{
+            font-size: 60% ;
+            line-height: 1.5;
+            text-align: center;
+            margin: 20px 50px;
+        }
+        .grid-container-Sectores2  i{
+          font-size: 25px;
+          width: 100%;
+          text-align: center;
+          color: rgb(41, 149, 250);
+        }
+@media all and (max-width: 1660px ) {
+    .grid-container-Sectores2  {
+        grid-template-columns: 40% 40%;
+        grid-auto-rows: minmax(10px, 140px);
+    }
+    .grid-container-Sectores2  i{
+        font-size: 20px;
+      }
+}
+@media all and (max-width: 795px ) {
+    .grid-container-Sectores2  {
+        grid-template-columns: 50% 50%;
+        grid-auto-rows: minmax(10px, 230px);
+    }
+}
+@media all and (max-width: 450px ) {
+    .grid-container-Sectores2  {
+        grid-auto-rows: minmax(10px, 400px);
+    }
+}
