@@ -1,0 +1,19 @@
+.grid-container-contact  {
+    display: grid;
+    grid-template-columns: 40% 40% ;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(10px, 250px);
+    justify-content: center;
+    padding: 90px 1px 20px 1px;
+}
+        .grid-container-contact  h4{   
+            font-size: 85% ;
+            line-height: 0.3;
+            text-align: center;
+        }
+        .grid-container-contact  p{
+            font-size: 60% ;
+            line-height: 1.5;
+            text-align: center;
+            margin: 20px 50px;
+        }
