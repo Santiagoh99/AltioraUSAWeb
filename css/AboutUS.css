@@ -42,7 +42,7 @@
   }
  /*--------------------mask 2----------------------*/ 
  .fondoSomos{
-    background: url(image/inicio/img02.png) no-repeat center center fixed;
+    background: url(../image/inicio/img02.png) no-repeat center center fixed;
     background-size: 50% !important;
     height: 500px;
     overflow: hidden;
