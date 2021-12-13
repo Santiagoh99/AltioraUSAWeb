@@ -11,13 +11,11 @@ btn.addEventListener('click', () => {
 })
 
 close.addEventListener('click', () => {
-    jQuery(".close").click(function () {
-        $('.youtube-iframe').each(function (index) {
-            $(this).attr('src', $(this).attr('src'));
-            return false;
-        });
-        videoContainer.classList.remove('show');
+    $('.youtube-iframe').each(function (index) {
+        $(this).attr('src', $(this).attr('src'));
+        return false;
     });
+    videoContainer.classList.remove('show');
 })
 
 jQuery('iframe2[src*="https://www.youtube.com/embed/"]').addClass("youtube");
@@ -33,13 +31,11 @@ btn2.addEventListener('click', () => {
 })
 
 close2.addEventListener('click', () => {
-    jQuery(".close2").click(function () {
-        $('.youtube').each(function (index) {
-            $(this).attr('src', $(this).attr('src'));
-            return false;
-        });
-        videoContainer2.classList.remove('show');
+    $('.youtube').each(function (index) {
+        $(this).attr('src', $(this).attr('src'));
+        return false;
     });
+    videoContainer2.classList.remove('show');
 })
 
 jQuery('iframe4[src*="https://www.youtube.com/embed/"]').addClass("youtube2");
@@ -55,13 +51,11 @@ btn3.addEventListener('click', () => {
 })
 
 close3.addEventListener('click', () => {
-    jQuery(".close3").click(function () {
-        $('.youtube2').each(function (index) {
-            $(this).attr('src', $(this).attr('src'));
-            return false;
-        });
-        videoContainer3.classList.remove('show');
+    $('.youtube2').each(function (index) {
+        $(this).attr('src', $(this).attr('src'));
+        return false;
     });
+    videoContainer3.classList.remove('show');
 })
 
 jQuery('iframe4[src*="https://www.youtube.com/embed/"]').addClass("youtube3");
@@ -77,11 +71,9 @@ btn4.addEventListener('click', () => {
 })
 
 close4.addEventListener('click', () => {
-    jQuery(".close4").click(function () {
-        $('.youtube3').each(function (index) {
-            $(this).attr('src', $(this).attr('src'));
-            return false;
-        });
-        videoContainer4.classList.remove('show');
+    $('.youtube3').each(function (index) {
+        $(this).attr('src', $(this).attr('src'));
+        return false;
     });
+    videoContainer4.classList.remove('show');
 })
