@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 30% 30% ;
     grid-gap: 10px;
-    grid-auto-rows: minmax(10px, 565px);
+    grid-auto-rows: minmax(10px, 571px);
     justify-content: center;
     padding: 90px 1px 1px 1px;
 }
@@ -21,18 +21,6 @@
             line-height: 1.5;
             text-align: center;
             margin: 20px 50px;
-        }
-        .grid-container-contact .button{
-            color: rgb(255, 255, 255);
-            background: rgb(56, 124, 250);
-            width: 200px;
-            font-size: 70% ;
-            text-decoration: none;
-            border-radius: 7px;
-            margin: 0 auto;
-            display: block;
-            align-items: center;
-            text-align: center;
         }
         .grid-container-contact iframe{
             position:absolute;
