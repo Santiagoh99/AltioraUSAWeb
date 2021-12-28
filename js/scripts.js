@@ -18,3 +18,14 @@ for (let i = 0; i < menuLength; i++) {
         menuItem[i].className = "active"
     }
 }
+
+const $form = document.querySelector('#form')
+$form.addEventListener('submit', hadleSubmit)
+$buttonmailto = document.querySelector('#trucazo')
+
+function hadleSubmit(event) {
+    event.preventDefault()
+    const form = new FormData(this)
+    $buttonmailto.setAttribute('href', `mailto:santiherrera@icloud.com?subject=${form.get('name')}//${form.get('mail')}//${form.get('phone')}&body=${form.get('mensaje')}`)
+    $buttonmailto.click()
+}
