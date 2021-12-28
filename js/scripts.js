@@ -20,7 +20,9 @@ for (let i = 0; i < menuLength; i++) {
 }
 
 const $form = document.querySelector('#form')
-$form.addEventListener('submit', hadleSubmit)
+if ($form) {
+    $form.addEventListener('submit', hadleSubmit)
+}
 $buttonmailto = document.querySelector('#trucazo')
 
 function hadleSubmit(event) {
