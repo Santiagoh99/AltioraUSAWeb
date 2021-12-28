@@ -58,8 +58,10 @@ body{
           border-radius: 5px;
         }
         .navigation ul li a.active{
-            background: rgb(221, 221, 221);
-            color: white;
+            border-bottom: 2px solid rgb(56, 124, 250);
+            border-radius: 1px;
+            transition: 0.9s ease;
+
           }
 
       @media (max-width: 900px ) {
@@ -782,12 +784,12 @@ body{
 .box-contactanos{
     justify-content: center;
     text-align: center;
-    margin: 5px auto;
+    margin: 1px auto;
     background-color: black;
     color: white;
 }
         .box-contactanos h2{
-            font-size: 150% ;
+            font-size: 130% ;
             text-align: center;
             justify-content: center;
             padding: 10px ;
@@ -798,21 +800,21 @@ body{
             border: 0.5px solid blue;
         } 
         .box-contactanos p{
-            font-size: 80% ;
+            font-size: 70% ;
             line-height: 1.1;
             margin: 10px auto;
         }
     /*--------------------grid 6----------------------*/
 .grid-container-contactanos  {
     display: grid;
-    grid-template-columns: 15% 15% 15% 15%;
+    grid-template-columns: 10% 10% 10% 10%;
     grid-template-rows: 150px ;
     justify-content: center;
     background-color: black;
     color: white;
 }
      .grid-container-contactanos  p{
-        font-size: 90%;
+        font-size: 70%;
         margin: 1px auto;
         text-align: center;
       }
@@ -875,6 +877,6 @@ footer{
     footer p{
        color: gray; 
        text-align: center;
-       font-size: 70%;
+       font-size: 60%;
        margin: 0 auto;
     }
