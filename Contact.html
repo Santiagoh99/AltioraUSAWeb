@@ -33,21 +33,22 @@
 
     <!--contact -->
     <div class="grid-container-contact">
-        <div>
+        <form id="form">
             <h4>¡Déjanos tus datos y nos contactaremos!</h4>
             <hr>
             <p>Para una atención inmediata da clic al botón de WhatsApp al pie de esta página.</p>
-            <input placeholder="Name..">
-            <input placeholder="E-mail..">
-            <input placeholder="Phone..">
-            <textarea>Message..</textarea>
-            <a class="button">Enviar</a>
-        </div>
+            <input name='name' placeholder="Name..">
+            <input name='mail' placeholder="E-mail..">
+            <input name='phone' placeholder="Phone..">
+            <textarea name='mensaje'>Message..</textarea>
+            <button type="submit">Enviar</button>
+        </form>
         <div>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d244.31420251105723!2d-58.48817771598971!3d-34.52602388545232!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb1350660e3db%3A0xf0a6420e25547109!2sImplementaciones%20Industriales!5e0!3m2!1ses!2sar!4v1638379020754!5m2!1ses!2sar"></iframe>
         </div>
     </div>
+    <a href="mailto:santiherrera@icloud.com" id="trucazo"></a>
 
     <!--Contáctanos-->
     <div class="box-contactanos">
@@ -88,6 +89,18 @@
     <script src="js/scripts.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="js/swiper.js"></script>
+    <script>
+        const $form = document.querySelector('#form')
+        $form.addEventListener('submit', hadleSubmit)
+        $buttonmailto = document.querySelector('#trucazo')
+
+        function hadleSubmit(event) {
+            event.preventDefault()
+            const form = new FormData(this)
+            $buttonmailto.setAttribute('href', `mailto:santiherrera@icloud.com?subject=${form.get('name')}${form.get('mail')}${form.get('phone')}&body=${form.get('mensaje')}`)
+            $buttonmailto.click()
+        }
+    </script>
 </body>
 
 </html>

@@ -60,6 +60,22 @@ textarea {
     font-size: 16px;
     resize: none;
   }
+button{
+        color: rgb(255, 255, 255);
+        background: rgb(56, 124, 250);
+        width: 500px;
+        font-size: 70% ;
+        text-decoration: none;
+        border-radius: 6px;
+        margin: 0 auto;
+        display: block;
+        align-items: center;
+        text-align: center;
+}
+#trucazo{
+    opacity: 0;
+}
+
 @media all and (max-width: 1220px ) {
     .grid-container-contact  {
         grid-template-columns: 60% ;
