@@ -1,15 +1,14 @@
 body{
     font-family: Optima, sans-serif;
     color: rgb(17, 17, 17);
-    font-size: 1.2em;
-    line-height: 1.6em;
+    line-height: 1.7em;
     margin: 0 auto;
     position: relative;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 .container{
     width: 100%;
-    max-width: 1100px;
+    max-width: 980px;
     margin: 0 auto;
 }
 /*--------------------header----------------------*/
@@ -18,7 +17,7 @@ body{
     background: white;
     position: fixed;
     width: 100%;
-    height: 4%;
+    height: 3%;
     z-index: 10000;
     margin: 0 auto;
 }
@@ -28,7 +27,7 @@ body{
        font-size: 13px ;
     }
 		header.major p {
-			margin: 0.7em 0 0 0;
+			margin: 0.1em 0 0 0;
 		}
 .logo-nav-container{
     display: flex;
@@ -37,7 +36,7 @@ body{
     flex-wrap: wrap;
 }
 .logo{
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-size: 1em;
 }
 .menu-icon{
@@ -547,9 +546,9 @@ body{
     /*--------------------grid 2----------------------*/         
 .grid-container-Servis  {
     display: grid;
-    grid-template-columns: 15% 15% 15% 15%;
+    grid-template-columns: 13% 13% 13% 13%;
     grid-gap: 10px;
-    grid-auto-rows: minmax(10px, 250px);
+    grid-auto-rows: minmax(10px, 260px);
     justify-content: center;
 }
         .grid-container-Servis  h4{   
@@ -783,6 +782,7 @@ body{
         .box-contactanos hr{
             width: 100px;
             border: 0.5px solid blue;
+            margin: -1px auto;
         } 
         .box-contactanos p{
             font-size: 12px;
