@@ -71,6 +71,7 @@ body{
                     display: none;
                     width: 50%;
                     right: 1%;
+                    border-radius: 7px;
                     -webkit-box-shadow: -6px 7px 59px -15px rgba(0,0,0,0.75);
                     -moz-box-shadow: -6px 7px 59px -15px rgba(0,0,0,0.75);
                     box-shadow: -6px 7px 59px -15px rgba(0,0,0,0.75);
@@ -186,7 +187,7 @@ body{
          color: rgb(255, 255, 255);
          background: rgba(71, 71, 71, 0.561);
          width: 200px;
-         font-size: 100% ;
+         font-size: 14px ;
          text-decoration: none;
          border-radius: 7px;
          display: block;
@@ -252,42 +253,6 @@ body{
         align-items: center;
         text-align: center;
     }
-    .grid-container .btn2{
-        color: rgb(255, 255, 255);
-        background: rgb(56, 124, 250);
-        width: 90px;
-        font-size: 10px;
-        text-decoration: none;
-        border-radius: 7px;
-        margin: 0 auto;
-        display: block;
-        align-items: center;
-        text-align: center;
-    }
-    .grid-container .btn3{
-        color: rgb(255, 255, 255);
-        background: rgb(56, 124, 250);
-        width: 90px;
-        font-size: 10px;
-        text-decoration: none;
-        border-radius: 7px;
-        margin: 0 auto;
-        display: block;
-        align-items: center;
-        text-align: center;
-    }
-    .grid-container .btn4{
-        color: rgb(255, 255, 255);
-        background: rgb(56, 124, 250);
-        width: 90px;
-        font-size: 10px;
-        text-decoration: none;
-        border-radius: 7px;
-        margin: 0 auto;
-        display: block;
-        align-items: center;
-        text-align: center;
-    }
 @media all and (max-width: 720px ) {
     iframe{
         position:absolute;
@@ -331,126 +296,18 @@ body{
                pointer-events: all;
                opacity: 1;
             }
-    /*--------------------video 2----------------------*/    
-    .video-container2{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 99999;
-        background-color: rgba(49, 42, 31, 0.541);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        opacity: 0;
-        pointer-events: none;
-        transition: all 0.3s;
-    }
-            .video-container2 .close2{
-                position: absolute;
-                top: 200px; 
-                right: 570px;
-               font-size: 40px;
-               cursor: pointer;
-               color: rgb(180, 180, 180);
-            }
-            .video-container2.show{
-                pointer-events: all;
-                opacity: 1;
-             }
-    /*--------------------video 3----------------------*/    
-    .video-container3{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 99999;
-        background-color: rgba(49, 42, 31, 0.541);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        opacity: 0;
-        pointer-events: none;
-        transition: all 0.3s;
-    }
-            .video-container3 .close3{
-                position: absolute;
-                top: 200px; 
-                right: 570px;
-               font-size: 40px;
-               cursor: pointer;
-               color: rgb(180, 180, 180);
-            }
-            .video-container3.show{
-                pointer-events: all;
-                opacity: 1;
-             }
-    /*--------------------video 4----------------------*/    
-    .video-container4{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: 99999;
-        background-color: rgba(49, 42, 31, 0.541);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        opacity: 0;
-        pointer-events: none;
-        transition: all 0.3s;
-    }
-            .video-container4 .close4{
-                position: absolute;
-                top: 200px; 
-                right: 570px;
-               font-size: 40px;
-               cursor: pointer;
-               color: rgb(180, 180, 180);
-            }
-            .video-container4.show{
-                pointer-events: all;
-                opacity: 1;
-             }
 /*--------------------video media----------------------*/
 @media all and (max-width: 720px ) {
     .video-container .close{
        top: 250px;
        right: 100px;
-       }
-    .video-container2 .close2{
-     top: 250px;
-     right: 100px;
-     }
-    .video-container3 .close3{
-        top: 250px;
-        right: 100px;
-        }
-    .video-container4 .close4{
-        top: 250px;
-        right: 100px;
-        }   
+       } 
 }
  @media all and (max-width: 500px ) {
     .video-container .close{
         top: 320px;
         right: 70px;
-       }
-    .video-container2 .close2{
-     top: 320px;
-     right: 70px;
-    }
-    .video-container3 .close3{
-     top: 320px;
-     right: 70px;
-    }
-    .video-container4 .close4{
-     top: 320px;
-     right: 70px;
-    }     
+       }  
 }
     /*--------------------grid 1 media----------------------*/
     @media all and (max-width: 930px ) {
@@ -517,7 +374,7 @@ body{
     }
      .imagenes-mask p {
         font-size: 13px;
-        line-height: 1.1;
+        line-height: 1.2;
       }
       .imagenes-mask  img {
         width: 45%;
@@ -799,7 +656,7 @@ body{
     color: white;
 }
      .grid-container-contactanos  p{
-        font-size: 9px;
+        font-size: 11px;
         margin: 1px auto;
         text-align: center;
       }

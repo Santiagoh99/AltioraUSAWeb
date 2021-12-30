@@ -20,11 +20,11 @@ close.addEventListener('click', () => {
 
 jQuery('iframe2[src*="https://www.youtube.com/embed/"]').addClass("youtube");
 
-const btn2 = document.querySelector('.btn2');
+const btn2 = document.querySelector('#btn2');
 
-const videoContainer2 = document.querySelector('.video-container2');
+const videoContainer2 = document.querySelector('#video-container2');
 
-const close2 = document.querySelector('.close2');
+const close2 = document.querySelector('#close2');
 
 btn2.addEventListener('click', () => {
     videoContainer2.classList.add('show');
@@ -40,11 +40,11 @@ close2.addEventListener('click', () => {
 
 jQuery('iframe4[src*="https://www.youtube.com/embed/"]').addClass("youtube2");
 
-const btn3 = document.querySelector('.btn3');
+const btn3 = document.querySelector('#btn3');
 
-const videoContainer3 = document.querySelector('.video-container3');
+const videoContainer3 = document.querySelector('#video-container3');
 
-const close3 = document.querySelector('.close3');
+const close3 = document.querySelector('#close3');
 
 btn3.addEventListener('click', () => {
     videoContainer3.classList.add('show');
@@ -60,11 +60,11 @@ close3.addEventListener('click', () => {
 
 jQuery('iframe4[src*="https://www.youtube.com/embed/"]').addClass("youtube3");
 
-const btn4 = document.querySelector('.btn4');
+const btn4 = document.querySelector('#btn4');
 
-const videoContainer4 = document.querySelector('.video-container4');
+const videoContainer4 = document.querySelector('#video-container4');
 
-const close4 = document.querySelector('.close4');
+const close4 = document.querySelector('#close4');
 
 btn4.addEventListener('click', () => {
     videoContainer4.classList.add('show');
