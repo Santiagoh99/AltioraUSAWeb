@@ -48,7 +48,7 @@ textarea {
     font-size: 16px;
     resize: none;
   }
-button{
+  .grid-container-contact button{
         color: rgb(255, 255, 255);
         background: rgb(56, 124, 250);
         width: 500px;
@@ -62,7 +62,11 @@ button{
 #trucazo{
     opacity: 0;
 }
-
+@media all and (max-width: 1650px ) {
+    .grid-container-contact button{
+        width: 200px;
+    }
+}
 @media all and (max-width: 1220px ) {
     .grid-container-contact  {
         grid-template-columns: 60% ;
