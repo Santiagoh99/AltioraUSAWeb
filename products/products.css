@@ -1,3 +1,4 @@
+    /*--------------------pagina 1 a 4----------------------*/    
 .grid-container-product-titulo {
     display: grid;
     grid-template-columns: 25% 25% ;
@@ -118,3 +119,4 @@ hr{
         height:200px;
     }
 }
+    /*--------------------pagina 5 a 8----------------------*/
