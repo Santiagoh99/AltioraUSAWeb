@@ -1,47 +1,3 @@
-    /*--------------------pagina 1 a 4----------------------*/    
-.grid-container-product-titulo {
-    display: grid;
-    grid-template-columns: 25% 25% ;
-    grid-auto-rows: minmax(10px, 230px);
-    justify-content: center;
-    text-align: justify;
-    padding: 85px 1px 1px;
-    padding-left: 50px;
-}
-.grid-container-titulo{
-    display: grid;
-    grid-template-columns: 50%;
-    grid-auto-rows: minmax(10px, 150px);
-    justify-content: center;
-    text-align: center;
-    padding: 85px 1px 1px;
-}
-            .grid-container-titulo h2{
-                font-size: 22px;
-            }
-.grid-container-product-video {
-    display: grid;
-    grid-template-columns: 50%;
-    grid-auto-rows: minmax(10px, 470px);
-    justify-content: center;
-}
-           iframe{
-               display: block;
-               border-style:none;
-               margin: 0 auto;
-           }
-.grid-container-product  {
-    display: grid;
-    grid-template-columns: 30% 30% ;
-    grid-auto-rows: minmax(10px, 350px);
-    justify-content: center;
-    grid-gap: 10px;
-    padding: 9px 1px 9px 1px;
-}
-      .grid-container-product img{  
-          padding-top: 10px;
-      }
-
 h2{
     font-size: 21px;
     text-align: center;
@@ -64,59 +20,57 @@ hr{
     width: 150px;
     border: 0.5px solid blue;
 }
-@media all and (max-width: 1655px ) {
-    .grid-container-product-video {
-        grid-template-columns: 70%;
-        grid-auto-rows: minmax(10px, 280px);
-    }
-    .grid-container-product-video img{
-        width:350px;
-        height:230px;
-    }
-    iframe{
-        width:350px;
-        height:230px;
-    } 
-    .grid-container-product  {
-        grid-template-columns: 100%;
-        grid-template-columns: 35% 35%;
-    }
-    h2{
-        font-size: 18px;
-    }
-    p{
-        font-size: 10px;
-        line-height: 1.4;
-    }
+ /*-------------------titulo---------------------*/    
+.grid-container-titulo {
+    display: grid;
+    grid-template-columns: 25% 25% ;
+    grid-auto-rows: minmax(10px, 230px);
+    justify-content: center;
+    text-align: justify;
+    padding: 85px 1px 1px;
+    padding-left: 50px;
 }
-@media all and (max-width: 1415px ) {
-    .grid-container-product-titulo {
-        grid-template-columns: 100%;
-        grid-auto-rows: minmax(10px, 200px);
-    }
-    .grid-container-product {
-        grid-template-columns: 100%;
-        grid-auto-rows: minmax(10px, 300px);
-    }
-    .grid-container-product img{  
-        width:450px;
-        height:200px;
-    }
-    .grid-container-product-video iframe{
-        width:450px;
-        height:270px;
-    }
+.grid-container-titulo-uno{
+    display: grid;
+    grid-template-columns: 50%;
+    grid-auto-rows: minmax(10px, 150px);
+    justify-content: center;
+    text-align: center;
+    padding: 85px 1px 1px;
 }
-@media all and (max-width: 900px ) {
-    .grid-container-product-titulo {
-        grid-auto-rows: minmax(10px, 280px);
-    }
-    iframe{
-        width:350px;
-    }
-    .grid-container-product img{  
-        width:300px;
-        height:200px;
-    }
+            .grid-container-titulo h2{
+                font-size: 22px;
+            }
+    /*-------------------video/img---------------------*/  
+.grid-container-product-video {
+    display: grid;
+    grid-template-columns: 50%;
+    grid-auto-rows: minmax(10px, 470px);
+    justify-content: center;
 }
-    /*--------------------pagina 5 a 8----------------------*/
+           iframe{
+               display: block;
+               border-style:none;
+               margin: 0 auto;
+           }
+/*-------------------parrafos---------------------*/ 
+.grid-container-product  {
+    display: grid;
+    grid-template-columns: 35% 35% ;
+    grid-auto-rows: minmax(10px, 350px);
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 9px 1px 9px 1px;
+}
+      .grid-container-product img{  
+          padding-top: 10px;
+      }
+
+.grid-container-product-crm {
+    display: grid;
+    grid-template-columns: 40% 40% ;
+    grid-auto-rows: minmax(10px, 400px);
+    justify-content: center;
+    grid-gap: 10px;
+    padding: 9px 1px 9px 1px;
+}
