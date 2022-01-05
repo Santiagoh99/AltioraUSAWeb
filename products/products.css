@@ -33,7 +33,7 @@ hr{
 .grid-container-titulo-uno{
     display: grid;
     grid-template-columns: 50%;
-    grid-auto-rows: minmax(10px, 150px);
+    grid-auto-rows: minmax(10px, 180px);
     justify-content: center;
     text-align: center;
     padding: 85px 1px 1px;
