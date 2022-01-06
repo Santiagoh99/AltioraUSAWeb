@@ -69,23 +69,23 @@ body{
            }
                 .navigation ul li .submenu{
                     background: white;
-                    padding: 5px;
+                    padding: 10px;
                     position: absolute;
                     display: none;
-                    width: 50%;
-                    right: 1%;
+                    width: 62%;
+                    right: 18%;
                     border-radius: 7px;
                     -webkit-box-shadow: -6px 7px 59px -15px rgba(0,0,0,0.75);
                     -moz-box-shadow: -6px 7px 59px -15px rgba(0,0,0,0.75);
                     box-shadow: -6px 7px 59px -15px rgba(0,0,0,0.75);
-                    line-height: 20px;
+                    line-height: 15px;
                   }
                     .navigation ul li:hover .submenu{
                         display: flex;
                     }
                         .navigation ul li .submenu .submenu2{
                             margin: 0 7px;
-                            font-size: 12px;
+                            font-size: 11px;
                         }
                         .navigation ul li .submenu .submenu2 p{
                             display: block;
