@@ -85,7 +85,6 @@ body{
                     }
                         .navigation ul li .submenu .submenu2{
                             margin: 0 7px;
-                            font-size: 11px;
                         }
                         .navigation ul li .submenu .submenu2 p{
                             display: block;
@@ -126,11 +125,11 @@ body{
                    border-radius: 5px;
                  }
                  .navigation ul li .submenu{
-                    width: 90%;
-                    right: 6%;
+                    display: block;
+                    font-size: 7px;
                   }
                         .navigation ul li .submenu .submenu2{
-                            font-size: 8px;
+                            font-size: 7px;
                         }
     }
     @media (max-width: 500px ) {
@@ -139,12 +138,8 @@ body{
             cursor: pointer;
             padding: 0.1rem 3rem ;
         }
-        .navigation ul li .submenu{
-            width: 90%;
-            right: 6%;
-          }
                 .navigation ul li .submenu .submenu2{
-                    font-size: 6px;
+                    font-size: 5px;
                 }
     }
     /*--------------------banner----------------------*/
