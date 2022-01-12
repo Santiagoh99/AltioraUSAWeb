@@ -63,7 +63,7 @@ body{
             color: rgb(56, 124, 250);
            }
            .navigation ul li a.active{
-               border-bottom: 2px solid rgb(56, 124, 250);
+               border-bottom: 1px solid rgb(56, 124, 250);
                border-radius: 1px;
                transition: 0.9s ease;
            }
@@ -79,6 +79,7 @@ body{
                     -moz-box-shadow: -6px 7px 59px -15px rgba(0,0,0,0.75);
                     box-shadow: -6px 7px 59px -15px rgba(0,0,0,0.75);
                     line-height: 15px;
+                    font-size: 10px;
                   }
                     .navigation ul li:hover .submenu{
                         display: flex;
@@ -91,6 +92,9 @@ body{
                             padding-bottom: 1px;
                             border-bottom: 1px solid rgb(56, 124, 250);
                             margin-bottom: 5px;
+                        }
+                        .navigation ul li .submenu .submenu2 a{
+                            font-size: 11px;
                         }
 @media (max-width: 900px ) {
       .menu-icon{
@@ -126,10 +130,10 @@ body{
                  }
                  .navigation ul li .submenu{
                     display: block;
-                    font-size: 7px;
+                    font-size: 8px;
                   }
                         .navigation ul li .submenu .submenu2{
-                            font-size: 7px;
+                            font-size: 8px;
                         }
     }
     @media (max-width: 500px ) {
