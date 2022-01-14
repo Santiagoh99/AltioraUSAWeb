@@ -745,21 +745,6 @@ footer{
        margin: 0 auto;
     }
 /*-------------------------------------------------------PRODUCTO------------------------------------------------------------*/ 
-/*
-h2{
-    font-size: 21px;
-    text-align: center;
-}
-ul li{
-    font-size: 13px;
-    line-height: 1.5;
-    text-align: justify;
-}
-p{
-    font-size: 13px;
-    line-height: 1.8;
-    text-align: justify;
-}*/
 img{  
     margin: auto;
     display: block;
@@ -790,7 +775,7 @@ img{
 .grid-container-titulo-uno{
     display: grid;
     grid-template-columns: 55%;
-    grid-auto-rows: minmax(10px, 200px);
+    grid-auto-rows: minmax(10px, 195px);
     justify-content: center;
     text-align: center;
     padding: 85px 1px 1px;
