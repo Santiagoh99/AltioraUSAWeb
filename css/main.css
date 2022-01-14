@@ -745,6 +745,7 @@ footer{
        margin: 0 auto;
     }
 /*-------------------------------------------------------PRODUCTO------------------------------------------------------------*/ 
+/*
 h2{
     font-size: 21px;
     text-align: center;
@@ -758,16 +759,11 @@ p{
     font-size: 13px;
     line-height: 1.8;
     text-align: justify;
-}
+}*/
 img{  
     margin: auto;
     display: block;
 }
-hr{   
-    width: 150px;
-    border: 0.5px solid blue;
-}
-
  /*-------------------titulo---------------------*/    
  .grid-container-titulo {
     display: grid;
@@ -778,6 +774,19 @@ hr{
     padding: 85px 1px 1px;
     padding-left: 50px;
 }
+    .grid-container-titulo h2{
+        font-size: 21px;
+        text-align: center;
+    }
+    .grid-container-titulo ul li{
+        font-size: 13px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    .grid-container-titulo hr{   
+        width: 150px;
+        border: 0.5px solid blue;
+    }
 .grid-container-titulo-uno{
     display: grid;
     grid-template-columns: 55%;
@@ -786,8 +795,18 @@ hr{
     text-align: center;
     padding: 85px 1px 1px;
 }
-            .grid-container-titulo h2{
-                font-size: 22px;
+            .grid-container-titulo-uno h2{
+                font-size: 21px;
+                text-align: center;
+            }
+            .grid-container-titulo-uno hr{   
+                width: 150px;
+                border: 0.5px solid blue;
+            }
+            .grid-container-titulo-uno p{
+                font-size: 13px;
+                line-height: 1.8;
+                text-align: justify;
             }
     /*-------------------video/img---------------------*/  
 .grid-container-product-video {
@@ -810,9 +829,27 @@ hr{
     grid-gap: 10px;
     padding: 9px 1px 9px 1px;
 }
-      .grid-container-product img{  
-          padding-top: 10px;
-      }
+     .grid-container-product img{  
+         padding-top: 10px;
+     }
+     .grid-container-product h2{
+       font-size: 21px;
+       text-align: center;
+    }
+    .grid-container-product ul li{
+        font-size: 13px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    .grid-container-product hr{   
+        width: 150px;
+        border: 0.5px solid blue;
+    }
+    .grid-container-product p{
+        font-size: 13px;
+        line-height: 1.8;
+        text-align: justify;
+    }
 
 .grid-container-product-crm {
     display: grid;
@@ -822,6 +859,19 @@ hr{
     grid-gap: 10px;
     padding: 9px 1px 9px 1px;
 }
+.grid-container-product-crm h2{
+    font-size: 21px;
+    text-align: center;
+ }
+ .grid-container-product-crm ul li{
+     font-size: 13px;
+     line-height: 1.5;
+     text-align: justify;
+ }
+ .grid-container-product-crm hr{   
+     width: 150px;
+     border: 0.5px solid blue;
+ }
 
 @media (max-width: 1510px ) {
 
