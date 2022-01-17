@@ -753,10 +753,10 @@ footer{
        margin: 0 auto;
     }
 /*-------------------------------------------------------PRODUCTO------------------------------------------------------------*/ 
-img{  
-    margin: auto;
-    display: block;
-}
+   img{  
+       margin: auto;
+       display: block;
+   }
  /*-------------------titulo---------------------*/    
  .grid-container-titulo {
     display: grid;
@@ -767,19 +767,19 @@ img{
     padding: 85px 1px 1px;
     padding-left: 50px;
 }
-    .grid-container-titulo h2{
-        font-size: 21px;
-        text-align: center;
-    }
-    .grid-container-titulo ul li{
-        font-size: 13px;
-        line-height: 1.5;
-        text-align: justify;
-    }
-    .grid-container-titulo hr{   
-        width: 150px;
-        border: 0.5px solid blue;
-    }
+        .grid-container-titulo h2{
+            font-size: 21px;
+            text-align: center;
+        }
+        .grid-container-titulo ul li{
+            font-size: 13px;
+            line-height: 1.5;
+            text-align: justify;
+        }
+        .grid-container-titulo hr{   
+            width: 150px;
+            border: 0.5px solid blue;
+        }
 .grid-container-titulo-uno{
     display: grid;
     grid-template-columns: 55%;
@@ -823,27 +823,27 @@ img{
     grid-gap: 10px;
     padding: 9px 1px 9px 1px;
 }
-     .grid-container-product img{  
-         padding-top: 10px;
-     }
-     .grid-container-product h2{
-       font-size: 21px;
-       text-align: center;
-    }
-    .grid-container-product ul li{
-        font-size: 13px;
-        line-height: 1.5;
-        text-align: justify;
-    }
-    .grid-container-product hr{   
-        width: 150px;
-        border: 0.5px solid blue;
-    }
-    .grid-container-product p{
-        font-size: 13px;
-        line-height: 1.8;
-        text-align: justify;
-    }
+          .grid-container-product img{  
+              padding-top: 10px;
+          }
+          .grid-container-product h2{
+            font-size: 21px;
+            text-align: center;
+         }
+         .grid-container-product ul li{
+             font-size: 13px;
+             line-height: 1.5;
+             text-align: justify;
+         }
+         .grid-container-product hr{   
+             width: 150px;
+             border: 0.5px solid blue;
+         }
+         .grid-container-product p{
+             font-size: 13px;
+             line-height: 1.8;
+             text-align: justify;
+         }
 
 .grid-container-product-crm {
     display: grid;
@@ -853,19 +853,19 @@ img{
     grid-gap: 10px;
     padding: 9px 1px 9px 1px;
 }
-.grid-container-product-crm h2{
-    font-size: 21px;
-    text-align: center;
- }
- .grid-container-product-crm ul li{
-     font-size: 13px;
-     line-height: 1.5;
-     text-align: justify;
- }
- .grid-container-product-crm hr{   
-     width: 150px;
-     border: 0.5px solid blue;
- }
+                       .grid-container-product-crm h2{
+                           font-size: 21px;
+                           text-align: center;
+                        }
+                        .grid-container-product-crm ul li{
+                            font-size: 13px;
+                            line-height: 1.5;
+                            text-align: justify;
+                        }
+                        .grid-container-product-crm hr{   
+                            width: 150px;
+                            border: 0.5px solid blue;
+                        }
 
 @media (max-width: 1510px ) {
 
@@ -882,7 +882,7 @@ img{
         grid-template-columns: 80%;
         grid-auto-rows: minmax(10px, 300px);
     }
-    .grid-container-product-video iframe{
+               .grid-container-product-video iframe{
                    width:650px;
                    height:300px;
                }
@@ -894,30 +894,30 @@ img{
      grid-template-columns: 80% ;
      grid-auto-rows: minmax(10px, 320px);
     }
-    .grid-container-product figure img {
-        width:100px;
-        height:30px;
-       }
-       .grid-container-product img  {
-        width:500px;
-        height:300px;
-       } 
-    .grid-container-product-crm {
-      display: grid;
-      grid-template-columns: 80%;
-  }
-       h2{
-         font-size: 17px;
-       }
-       ul li{
-           font-size: 11px;
-           line-height: 1.3;
-       }
-       p{
-           font-size: 11px;
-           line-height: 1.5;
-       }
-}
+              .grid-container-product figure img {
+                  width:100px;
+                  height:30px;
+                 }
+                 .grid-container-product img  {
+                  width:500px;
+                  height:300px;
+                 } 
+              .grid-container-product-crm {
+                display: grid;
+                grid-template-columns: 80%;
+              }
+                            h2{
+                              font-size: 17px;
+                            }
+                            ul li{
+                                font-size: 11px;
+                                line-height: 1.3;
+                            }
+                            p{
+                                font-size: 11px;
+                                line-height: 1.5;
+                            }
+}                     
 @media (max-width: 750px ) {
 
     .grid-container-titulo {
@@ -925,36 +925,35 @@ img{
         grid-auto-rows: minmax(10px, 200px);
         padding-left: 0px;
     }
-    
-    .grid-container-titulo h2{
-        font-size: 12px;
-    }
-    .grid-container-titulo ul li{
-        font-size: 10px;
-    }
+             .grid-container-titulo h2{
+                 font-size: 12px;
+             }
+             .grid-container-titulo ul li{
+                 font-size: 10px;
+             }
     .grid-container-titulo-uno{
         display: grid;
         grid-template-columns: 90%;
         grid-auto-rows: minmax(10px, 200px);
     }
-    .grid-container-titulo-uno h2{
-        font-size: 12px;
-    }
-    .grid-container-titulo-uno ul li{
-        font-size: 10px;
-    }
-    .grid-container-titulo-uno p{
-        font-size: 10px;
-    }
+            .grid-container-titulo-uno h2{
+                font-size: 12px;
+            }
+            .grid-container-titulo-uno ul li{
+                font-size: 10px;
+            }
+            .grid-container-titulo-uno p{
+                font-size: 10px;
+            }
     .grid-container-product-video {
         grid-template-columns: 90%;
         grid-auto-rows: minmax(10px, 300px);
     }
-    .grid-container-product-video iframe{
-        width:300px;
-        height:200px;
-        padding: 10px;
-    }
+            .grid-container-product-video iframe{
+                width:300px;
+                height:200px;
+                padding: 50px;
+            }
                .grid-container-product-video img{
                 width:300px;
                 height:200px;
@@ -964,37 +963,37 @@ img{
      grid-template-columns: 90% ;
      grid-auto-rows: minmax(10px, 320px);
     }
-    .grid-container-product h2 {
-        font-size: 10px;
-       }
-       .grid-container-product p {
-        font-size: 10px;
-       }
-    .grid-container-product figure img {
-        width:80px;
-        height:20px;
-       }
-       .grid-container-product img  {
-        padding: 20px;
-        width:300px;
-        height:150px;
-       } 
-    .grid-container-product-crm {
-      display: grid;
-      grid-template-columns: 90%;
-      grid-auto-rows: minmax(10px, 300px);
-  }
-  .grid-container-product-crm iframe{   
-    width:300px;
-    height:200px;
-    padding: 10px;
-}
-.grid-container-product-crm h2{
-    font-size: 15px;
-    text-align: center;
- }
- .grid-container-product-crm ul li{
-     font-size: 10px;
-     line-height: 1.3;
- }
+         .grid-container-product h2 {
+             font-size: 10px;
+          }
+          .grid-container-product p {
+           font-size: 10px;
+          }
+         .grid-container-product figure img {
+             width:80px;
+             height:20px;
+            }
+            .grid-container-product img  {
+             padding: 50px;
+             width:300px;
+             height:150px;
+            } 
+              .grid-container-product-crm {
+                display: grid;
+                grid-template-columns: 90%;
+                grid-auto-rows: minmax(10px, 300px);
+              }
+                 .grid-container-product-crm iframe{   
+                   width:300px;
+                   height:200px;
+                   padding: 10px;
+                 }
+                 .grid-container-product-crm h2{
+                     font-size: 15px;
+                     text-align: center;
+                  }
+                  .grid-container-product-crm ul li{
+                      font-size: 10px;
+                      line-height: 1.3;
+                  }
 }
