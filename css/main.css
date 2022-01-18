@@ -895,6 +895,9 @@ footer{
      grid-template-columns: 80% ;
      grid-auto-rows: minmax(10px, 320px);
     }
+              .grid-container-product h2{
+                  padding-top: 50px;
+               }
               .grid-container-product figure img {
                   width:100px;
                   height:30px;
