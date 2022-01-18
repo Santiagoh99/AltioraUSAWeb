@@ -63,6 +63,6 @@
 }
 @media all and (max-width: 450px ) {
     .grid-container-Sectores2  {
-        grid-auto-rows: minmax(10px, 400px);
+        grid-auto-rows: minmax(10px, 300px);
     }
 }
