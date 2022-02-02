@@ -237,8 +237,8 @@ body{
     /*--------------------grid 1----------------------*/
 .grid-container {
     display: grid;
-    grid-template-columns: 500px 500px ;
-    grid-template-rows: 205px 205px ;
+    grid-template-columns: 480px 480px ;
+    grid-template-rows: 200px 200px ;
     justify-content: center;
     align-items: center;
 }
@@ -424,8 +424,7 @@ body{
     /*--------------------grid 2----------------------*/         
 .grid-container-Servis  {
     display: grid;
-    grid-template-columns: 14% 14% 14% 14%;
-    grid-gap: 10px;
+    grid-template-columns: 13% 13% 13% 13%;
     grid-auto-rows: minmax(10px, 270px);
     justify-content: center;
 }
