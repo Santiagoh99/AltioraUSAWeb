@@ -358,7 +358,7 @@ body{
     }
     /*--------------------section----------------------*/
     .Especialistas {
-    min-height: 410px;
+    min-height: 420px;
     display: block;
     align-items: center;
     text-align: center;
@@ -391,13 +391,14 @@ body{
       .imagenes-mask  hr{
         width: 100px;
         border: 0.5px solid blue;
+        margin: 3px auto;
     }
      .imagenes-mask p {
-        font-size: 11px;
+        font-size: 13px;
         line-height: 1.2;
       }
       .imagenes-mask  img {
-        width: 45%;
+        width: 50%;
       }
       @media all and (max-width: 1120px ) {
         .imagenes-mask{
@@ -827,16 +828,18 @@ footer{
          .grid-container-product .center-product ul li{
              font-size: 11px;
              line-height: 1.5;
-             text-align: justify;
+             text-align: center;
+             list-style: none;
          }
          .grid-container-product .center-product hr{   
              width: 130px;
              border: 0.5px solid blue;
+             margin: 2px auto;
          }
          .grid-container-product .center-product p{
              font-size: 11px;
              line-height: 1.8;
-             text-align: justify;
+             text-align: center;
          }
 
 .grid-container-product-crm {
@@ -854,11 +857,13 @@ footer{
              .grid-container-product-crm ul li{
                  font-size: 11px;
                  line-height: 1.5;
-                 text-align: justify;
+                 text-align: center;
+                 list-style: none;
              }
              .grid-container-product-crm hr{   
                  width: 150px;
                  border: 0.5px solid blue;
+                 margin: 2px auto;
              }
 @media (max-width: 1510px ) {
 

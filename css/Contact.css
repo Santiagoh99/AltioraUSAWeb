@@ -7,7 +7,7 @@
     padding: 90px 1px 1px 1px;
 }
         .grid-container-contact  h4{   
-            font-size: 85% ;
+            font-size: 18px ;
             line-height: 0.3;
             text-align: center;
         }
@@ -17,7 +17,7 @@
         }
         
         .grid-container-contact  p{
-            font-size: 70% ;
+            font-size: 11px;
             line-height: 1.5;
             text-align: center;
             margin: 20px 50px;
@@ -53,7 +53,7 @@ textarea {
         background: rgb(56, 124, 250);
         width: 500px;
         height: 28px;
-        font-size: 70% ;
+        font-size: 15px ;
         text-decoration: none;
         border-radius: 6px;
         margin: 0 auto;

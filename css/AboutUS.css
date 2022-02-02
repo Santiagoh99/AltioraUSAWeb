@@ -12,11 +12,11 @@
             border: 0.5px solid blue;
         }
          .clientes h1{   
-             font-size: 20px ;
+             font-size: 18px ;
              text-align: center;
          }
          .clientes p{
-             font-size: 13px  ;
+             font-size: 11px  ;
              line-height: 1.5;
              text-align: justify;
              align-items: center;
@@ -62,16 +62,16 @@
         margin: 5px auto;
     }
      .nosotros h2{   
-         font-size: 20px  ;
+         font-size: 18px  ;
          text-align: center;
      }
      .nosotros p{
-        font-size: 13px  ;
+        font-size: 11px  ;
         line-height: 1.5;
          text-align: justify;
      }
      .nosotros ul li{
-        font-size: 13px ;
+        font-size: 11px ;
         line-height: 2;
         text-align: justify;
     }
@@ -106,11 +106,11 @@
         border: 0.5px solid blue;
     }
      .Certificaciones h1{   
-         font-size: 20px ;
+         font-size: 18px ;
          text-align: center;
      }
      .Certificaciones p{
-        font-size: 13px ;
+        font-size: 11px ;
         line-height: 1.5;
         text-align: center;
         align-items: center;
