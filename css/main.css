@@ -817,21 +817,23 @@ footer{
           .grid-container-product img{  
               padding-top: 10px;
           }
-          .grid-container-product h2{
-            font-size: 18px;
-            text-align: center;
+          .grid-container-product .center-product {
             padding-top: 100px;
          }
-         .grid-container-product ul li{
+          .grid-container-product .center-product h2{
+            font-size: 18px;
+            text-align: center;
+         }
+         .grid-container-product .center-product ul li{
              font-size: 11px;
              line-height: 1.5;
              text-align: justify;
          }
-         .grid-container-product hr{   
+         .grid-container-product .center-product hr{   
              width: 130px;
              border: 0.5px solid blue;
          }
-         .grid-container-product p{
+         .grid-container-product .center-product p{
              font-size: 11px;
              line-height: 1.8;
              text-align: justify;
@@ -862,7 +864,7 @@ footer{
 
     .grid-container-titulo {
         grid-template-columns: 75% ;
-        grid-template-rows: 200px;
+        grid-template-rows: 210px;
     }
     .grid-container-titulo-uno{
         display: grid;
@@ -885,10 +887,10 @@ footer{
      grid-template-columns: 80% ;
      grid-template-rows:320px;
     }
-              .grid-container-product h2{
-                  padding-top: 50px;
+              .grid-container-product .center-product{
+                  padding-top: 20px;
                }
-              .grid-container-product figure img {
+              .grid-container-product .center-product figure img {
                   width:100px;
                   height:30px;
                  }
@@ -916,7 +918,7 @@ footer{
 
     .grid-container-titulo {
         grid-template-columns: 90% ;
-        grid-template-rows: 200px;
+        grid-template-rows: 215px;
         padding-left: 0px;
     }
     .grid-container-titulo-uno{
@@ -930,7 +932,7 @@ footer{
     }
             .grid-container-product-video iframe{
                 width:330px;
-                height:210px;
+                height:270px;
             }
                .grid-container-product-video img{
                 width:300px;
@@ -940,13 +942,13 @@ footer{
      grid-template-columns: 90% ;
      grid-template-rows: 320px;
     }
-         .grid-container-product figure img {
+         .grid-container-product .center-product figure img {
              width:80px;
              height:20px;
             }
             .grid-container-product img  {
              width:330px;
-             height:190px;
+             height:280px;
             } 
               .grid-container-product-crm {
                 display: grid;
