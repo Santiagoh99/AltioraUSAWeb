@@ -1,8 +1,8 @@
 /*--------------------grid 1----------------------*/    
     .clientes {
         display: grid;
-        grid-template-columns: 900px ;
-        grid-template-rows: 205px;
+        grid-template-columns: 950px ;
+        grid-template-rows: 185px;
         justify-content: center;
         text-align: center;
         padding: 90px 1px 10px 1px;
@@ -38,7 +38,7 @@
  .fondoSomos{
     background: url(../image/inicio/img02.png) no-repeat center center fixed;
     background-size: 50% !important;
-    height: 500px;
+    height: 400px;
     overflow: hidden;
   }
   @media all and (max-width: 470px ) { 
@@ -50,8 +50,8 @@
 /*--------------------box 1----------------------*/    
 .nosotros {
     display: grid;
-    grid-template-columns: 900px ;
-    grid-template-rows: 70px 400px;
+    grid-template-columns: 950px ;
+    grid-template-rows: 70px 300px;
     justify-content: center;
     align-items: center;
     color: black;
