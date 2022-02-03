@@ -774,10 +774,10 @@ footer{
 .grid-container-titulo-uno{
     display: grid;
     grid-template-columns: 55%;
-    grid-template-rows: 195px;
+    grid-template-rows: 185px;
     justify-content: center;
     text-align: center;
-    padding: 85px 1px 1px;
+    padding: 60px 1px 1px;
 }
             .grid-container-titulo-uno h2{
                 font-size: 18px;
@@ -928,7 +928,7 @@ footer{
     .grid-container-titulo-uno{
         display: grid;
         grid-template-columns: 90%;
-        grid-template-rows: 200px;
+        grid-template-rows: 300px;
     }
     .grid-container-product-video {
         grid-template-columns: 90%;
