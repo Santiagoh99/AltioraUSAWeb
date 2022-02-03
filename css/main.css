@@ -57,7 +57,6 @@ body{
           padding: 5px;
           transition: all 0.5s linear;
           display: block;
-          font-family: 'Open sans';
         }
            .navigation li a:hover{
             color: rgb(17, 100, 255);
