@@ -1,4 +1,4 @@
-jQuery('iframe[src*="https://www.youtube.com/embed/"]').addClass("youtube-iframe");
+jQuery('iframe[src*="https://www.youtube.com/embed/"]').addClass("youtube-video");
 
 const btn = document.querySelector('.btn');
 
@@ -11,14 +11,12 @@ btn.addEventListener('click', () => {
 })
 
 close.addEventListener('click', () => {
-    $('.youtube-iframe').each(function (index) {
+    $('.youtube-video').each(function (index) {
         $(this).attr('src', $(this).attr('src'));
         return false;
     });
     videoContainer.classList.remove('show');
 })
-
-jQuery('iframe2[src*="https://www.youtube.com/embed/"]').addClass("youtube");
 
 const btn2 = document.querySelector('#btn2');
 
@@ -31,14 +29,12 @@ btn2.addEventListener('click', () => {
 })
 
 close2.addEventListener('click', () => {
-    $('.youtube').each(function (index) {
+    $('.youtube-video').each(function (index) {
         $(this).attr('src', $(this).attr('src'));
         return false;
     });
     videoContainer2.classList.remove('show');
 })
-
-jQuery('iframe4[src*="https://www.youtube.com/embed/"]').addClass("youtube2");
 
 const btn3 = document.querySelector('#btn3');
 
@@ -51,14 +47,12 @@ btn3.addEventListener('click', () => {
 })
 
 close3.addEventListener('click', () => {
-    $('.youtube2').each(function (index) {
+    $('.youtube-video').each(function (index) {
         $(this).attr('src', $(this).attr('src'));
         return false;
     });
     videoContainer3.classList.remove('show');
 })
-
-jQuery('iframe4[src*="https://www.youtube.com/embed/"]').addClass("youtube3");
 
 const btn4 = document.querySelector('#btn4');
 
@@ -71,7 +65,7 @@ btn4.addEventListener('click', () => {
 })
 
 close4.addEventListener('click', () => {
-    $('.youtube3').each(function (index) {
+    $('.youtube-video').each(function (index) {
         $(this).attr('src', $(this).attr('src'));
         return false;
     });
