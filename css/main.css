@@ -2,7 +2,8 @@ body{
     font-family: Optima, sans-serif;
     color: rgb(17, 17, 17);
     line-height: 1.7em;
-    margin: 0 auto;
+    margin: 0px;
+    padding: 0px;
     position: relative;
     padding-bottom: 0.5em;
 }
