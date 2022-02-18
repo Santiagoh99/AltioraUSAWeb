@@ -19,7 +19,7 @@ body{
     background: white;
     position:fixed ;
     width: 100%;
-    height: 3.5%;
+    height: 30px;
     z-index: 10000;
     margin: 0 auto;
     -webkit-box-shadow: -6px 7px 59px -15px rgba(0,0,0,0.75);
@@ -123,7 +123,7 @@ body{
       .logo{
         letter-spacing: 3px;
         font-size: 1em;
-        padding: 0rem 2rem ;
+        padding: 0rem 3rem ;
     }
        .navigation{
            width: 100%;
@@ -167,6 +167,9 @@ body{
         display: block;
         cursor: pointer;
         padding: 0.1rem 3rem ;
+    }
+    .navigation ul li .submenu{
+        right: 22%;
     }
 }
     /*--------------------banner----------------------*/
@@ -273,18 +276,33 @@ body{
         align-items: center;
         text-align: center;
     }
-@media all and (max-width: 720px ) {
-    iframe{
-        position:absolute;
-        height: 300px;
-        width: 450px;
+    @media all and (max-width: 975px ) {
+        .itemmin,.itemmin1,.itemmin2,.itemmin3{
+            grid-column: 1/ span 2;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 400px ;
+            grid-template-rows: 200px  ;
+        }
+        .grid-container h2{   
+            font-size: 13px;
+        }
+        .grid-container p{
+           text-align: center;
         }
     }
-@media all and (max-width: 430px ) {
-    iframe{
-        position:absolute;
-        height: 150px;
-        width: 250px;
+    @media all and (max-width: 500px ) {
+        .itemmin,.itemmin1,.itemmin2,.itemmin3{
+            grid-column: 1/ span 2;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 420px ;
+            grid-template-rows: 200px  ;
+        }
+        .grid-container h2{   
+            font-size: 10px;
         }
     }
     
@@ -305,9 +323,9 @@ body{
     transition: all 0.3s;
 }
        .video-container .close{
-            position: absolute;
-            top: 200px; 
-            right: 570px;
+           position: absolute;
+           top: 10%; 
+           right: 50%;
            font-size: 40px;
            cursor: pointer;
            color: rgb(180, 180, 180);
@@ -316,46 +334,20 @@ body{
                pointer-events: all;
                opacity: 1;
             }
-/*--------------------video media----------------------*/
-@media all and (max-width: 720px ) {
-    .video-container .close{
-       top: 250px;
-       right: 100px;
-       } 
-}
- @media all and (max-width: 500px ) {
-    .video-container .close{
-        top: 320px;
-        right: 70px;
-       }  
-}
-    /*--------------------grid 1 media----------------------*/
-    @media all and (max-width: 930px ) {
-        .itemmin,.itemmin1,.itemmin2,.itemmin3{
-            grid-column: 1/ span 2;
-        }
-        .grid-container {
-            display: grid;
-            grid-template-columns: 450px ;
-            grid-template-rows: 200px  ;
-        }
-        .grid-container h2{   
-            font-size: 13px;
-        }
-    }
-    @media all and (max-width: 500px ) {
-        .itemmin,.itemmin1,.itemmin2,.itemmin3{
-            grid-column: 1/ span 2;
-        }
-        .grid-container {
-            display: grid;
-            grid-template-columns: 420px ;
-            grid-template-rows: 200px  ;
-        }
-        .grid-container h2{   
-            font-size: 10px;
-        }
-    }
+     @media all and (max-width: 720px ) {
+         iframe{
+             position:absolute;
+             height: 300px;
+             width: 450px;
+             }
+         }
+     @media all and (max-width: 430px ) {
+         iframe{
+             position:absolute;
+             height: 150px;
+             width: 250px;
+             }
+         }        
     /*--------------------section----------------------*/
     .Especialistas {
     min-height: 420px;
@@ -402,7 +394,7 @@ body{
       }
       @media all and (max-width: 1120px ) {
         .imagenes-mask{
-            background: url(../image/inicio/img03.jpg);
+            background: url(../image/inicio/img11.gif);
             background-size: cover !important;
             clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
           }
@@ -417,9 +409,6 @@ body{
             margin: 1px auto;
             padding: 5px;
         }  
-          .imagenes-mask p {
-            color: rgb(255, 255, 255);
-          }
       }
     /*--------------------grid 2----------------------*/         
 .grid-container-Servis  {
@@ -448,8 +437,8 @@ body{
         @media all and (max-width: 1340px ) {
             .grid-container-Servis  {
                 display: grid;
-                grid-template-columns: 500px ;
-                grid-auto-rows: minmax(10px, 150px);
+                grid-template-columns: 400px ;
+                grid-auto-rows: minmax(10px, 160px);
             }
         }
         @media all and (max-width: 400px ) {

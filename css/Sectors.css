@@ -1,7 +1,7 @@
 /*--------------------grid 1----------------------*/    
 .Sectores {
     display: grid;
-    grid-template-columns: 1000px ;
+    grid-template-columns: 50%;
     grid-template-rows: 130px;
     justify-content: center;
     text-align: center;
