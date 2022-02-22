@@ -810,7 +810,7 @@ footer{
              line-height: 1.8;
              text-align: center;
          }
-         .grid-container-product .center-product iframe{
+         .grid-container-product iframe{
             display: flex;
             justify-content: center;
             align-items: center;
@@ -851,7 +851,7 @@ footer{
                  }         
 }                     
 @media all and (max-width: 750px ) {
-
+    
     .grid-container-titulo {
         grid-template-columns: 90% ;
         grid-template-rows: 215px;
@@ -880,9 +880,4 @@ footer{
              width:400px;
              height:310px;
             }
-            .grid-container-product  .video-crm{
-                width:200px;
-                height:300px;
-                padding-left: 20px;
-               }
 }
