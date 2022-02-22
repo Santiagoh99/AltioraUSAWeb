@@ -2,7 +2,7 @@ body{
     font-family: Optima, sans-serif;
     color: rgb(17, 17, 17);
     line-height: 1.7em;
-    margin: 0px;
+    margin: auto;
     padding: 0px;
     position: relative;
     padding-bottom: 0.5em;
@@ -63,7 +63,7 @@ body{
             color: rgb(17, 100, 255);
            }
            .navigation ul li a.active{
-               border-bottom: 2px solid rgb(0, 89, 255);
+               border-bottom: 1px solid rgb(0, 89, 255);
                border-radius: 1px;
                transition: 0.9s ease;
            }
@@ -94,27 +94,7 @@ body{
                         .navigation ul li .submenu a{
                             font-size: 11px;
                         }
-@media (max-width: 1405px ) {
-    .navigation ul li .submenu{
-        width: 70%;
-        right: 10%;
-        line-height: 15px;
-    }
-     .navigation ul li:hover .submenu{
-        display: block;
-    }
-    .navigation ul li .submenu p{
-        display: block;
-        text-align: center;
-        padding-bottom: 1px;
-        margin-bottom: 5px;
-        font-size: 10px;
-    }
-    .navigation ul li .submenu a{
-        font-size: 10px;
-    }
-}
-@media (max-width: 900px ) {
+@media all and (max-width: 1050px ) {
       .menu-icon{
           display: block;
           cursor: pointer;
@@ -162,7 +142,7 @@ body{
                     font-size: 8px;
                 }
     }
-@media (max-width: 500px ) {
+@media all and (max-width: 500px ) {
     .menu-icon{
         display: block;
         cursor: pointer;
@@ -736,6 +716,7 @@ footer{
    img{  
        margin: auto;
        display: block;
+       object-fit: contain;
    }
  /*-------------------titulo---------------------*/    
  .grid-container-titulo {
@@ -745,20 +726,22 @@ footer{
     justify-content: center;
     text-align: justify;
     padding: 85px 1px 1px;
-    padding-left: 50px;
 }
         .grid-container-titulo h2{
             font-size: 18px;
             text-align: center;
+            padding-top: 50px;
+            margin: 5px;
         }
         .grid-container-titulo ul li{
             font-size: 11px;
             line-height: 1.5;
             text-align: justify;
         }
-        .grid-container-titulo hr{   
+        .grid-container-titulo hr{
             width: 150px;
             border: 0.5px solid blue;
+            margin: 0 auto;
         }
 .grid-container-titulo-uno{
     display: grid;
@@ -771,10 +754,13 @@ footer{
             .grid-container-titulo-uno h2{
                 font-size: 18px;
                 text-align: center;
+                padding-top: 40px;
+                margin: 5px;
             }
             .grid-container-titulo-uno hr{   
                 width: 150px;
                 border: 0.5px solid blue;
+                margin: 0 auto;
             }
             .grid-container-titulo-uno p{
                 font-size: 11px;
@@ -824,30 +810,13 @@ footer{
              line-height: 1.8;
              text-align: center;
          }
-.grid-container-product-crm {
-    display: grid;
-    grid-template-columns: 40% 40% ;
-    grid-template-rows: 400px;
-    justify-content: center;
-    grid-gap: 10px;
-    padding: 9px 1px 9px 1px;
-}
-            .grid-container-product-crm h2{
-                font-size: 18px;
-                text-align: center;
-             }
-             .grid-container-product-crm ul li{
-                 font-size: 11px;
-                 line-height: 1.5;
-                 text-align: center;
-                 list-style: none;
-             }
-             .grid-container-product-crm hr{   
-                 width: 150px;
-                 border: 0.5px solid blue;
-                 margin: 2px auto;
-             }
-@media (max-width: 1510px ) {
+         .grid-container-product .center-product iframe{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+@media all and (max-width: 1510px ) {
 
     .grid-container-titulo {
         grid-template-columns: 75% ;
@@ -858,6 +827,10 @@ footer{
         grid-template-columns: 80%;
         grid-template-rows: 230px;
     }
+    .grid-container-product-video img{
+        width:750px;
+        height:540px;
+    }
     .grid-container-product  {
      grid-template-columns: 80% ;
      grid-template-rows:320px;
@@ -865,6 +838,9 @@ footer{
               .grid-container-product .center-product{
                   padding-top: 20px;
                }
+               .grid-container-product .center-product ul{
+                padding: 0px 0px 0px 0px;
+             }
               .grid-container-product .center-product figure img {
                   width:100px;
                   height:30px;
@@ -872,28 +848,25 @@ footer{
                  .grid-container-product img  {
                   width:650px;
                   height:350px;
-                 } 
-        .grid-container-product-crm {
-           grid-template-columns: 90%;
-           grid-template-rows: 300px;
-           justify-content: center;
-         }
-            .grid-container-product-crm iframe{   
-              width:510px;
-              height:280px;
-            }
+                 }         
 }                     
-@media (max-width: 750px ) {
+@media all and (max-width: 750px ) {
 
     .grid-container-titulo {
         grid-template-columns: 90% ;
         grid-template-rows: 215px;
-        padding-left: 0px;
     }
     .grid-container-titulo-uno{
         display: grid;
         grid-template-columns: 90%;
         grid-template-rows: 300px;
+    }
+    .grid-container-product-video {
+        height: 350px;
+    }
+    .grid-container-product-video img{
+        width:350px;
+        height:540px;
     }
     .grid-container-product  {
      grid-template-columns: 90% ;
@@ -906,10 +879,10 @@ footer{
             .grid-container-product img  {
              width:400px;
              height:310px;
-            } 
-            .grid-container-product-crm {
-                grid-template-columns: 100%;
-                grid-template-rows: 500px;
-                justify-content: center;
-              }
+            }
+            .grid-container-product  .video-crm{
+                width:200px;
+                height:300px;
+                padding-left: 20px;
+               }
 }
