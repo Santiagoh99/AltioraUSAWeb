@@ -133,13 +133,18 @@
     margin: 0 auto;
     text-align:center;
 }
-@media all and (max-width: 1110px ) { 
+@media all and (max-width: 1100px ) { 
     .Certificaciones2 {
-        height: 400px;
+        height: 250px;
+    }
+  }
+  @media all and (max-width: 650px ) { 
+    .Certificaciones2 {
+        height: 480px;
     }
   }
 @media all and (max-width: 450px ) { 
     .Certificaciones2 {
-        height: 900px;
+        height: 750px;
     }
   }

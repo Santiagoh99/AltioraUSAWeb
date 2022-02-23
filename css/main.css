@@ -69,7 +69,7 @@ ul{
                border: 0.5px solid rgba(0, 89, 255, 0.212);
                border-radius: 9px;
                color: rgb(0, 89, 255);
-               transition: 0.9s ease;
+               transition: 0.5s ease;
            }
                 .navigation ul li .submenu{
                     background: white;
