@@ -931,7 +931,8 @@ footer{
      grid-template-rows: 310px;
     }
     .grid-video div{
-        padding-top: 50px;
+        padding-top: 30px;
+        padding-bottom: 5px;
     }
     .grid-video p{
         font-size: 11px;
@@ -942,8 +943,8 @@ footer{
         padding-top: 20px;
     }
     .grid-video  iframe{
-        width: 500px;
-        height: 300px;
+        max-width: 40%;
+        height: 310px;
         display: block;
         margin: 0 auto;
        }   
@@ -957,7 +958,7 @@ footer{
     }
     
     .grid-video  iframe{
-        width: 410px;
-        height: 250px;
+        max-width: 90%;
+        height: 260px;
        }
 }
