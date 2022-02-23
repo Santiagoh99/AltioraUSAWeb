@@ -66,8 +66,9 @@ ul{
             color: rgb(17, 100, 255);
            }
            .navigation ul li a.active{
-               border-bottom: 1px solid rgb(0, 89, 255);
-               border-radius: 1px;
+               border: 0.5px solid rgba(0, 89, 255, 0.212);
+               border-radius: 9px;
+               color: rgb(0, 89, 255);
                transition: 0.9s ease;
            }
                 .navigation ul li .submenu{
@@ -75,7 +76,7 @@ ul{
                     padding: 8px;
                     position: absolute;
                     display: none;
-                    width: 60%;
+                    width: 55%;
                     right: 18%;
                     border-radius: 7px;
                     -webkit-box-shadow: -6px 7px 59px -15px rgba(0,0,0,0.75);
@@ -132,17 +133,17 @@ ul{
                  .navigation ul li .submenu{
                     width: 50%;
                     right: 20%;
-                    line-height: 5px;
+                    line-height: 9px;
                 }
                  .navigation ul li:hover .submenu{
                     display: block;
                 }
                 .navigation ul li .submenu p{
                     display: block;
-                    font-size: 8px;
+                    font-size: 9px;
                 }
                 .navigation ul li .submenu a{
-                    font-size: 8px;
+                    font-size: 9px;
                 }
     }
 @media all and (max-width: 500px ) {
@@ -834,6 +835,16 @@ footer{
         height:230px;
     }
 }
+@media all and (max-width: 400px ) {
+
+    .grid-container-product-video img{
+        width:325px;
+    }
+    .grid-container-product-video iframe{
+        width:300px;
+        height:230px;
+    }
+}
 /*-------------------parrafos---------------------*/ 
 .grid-container-product  {
     display: flex;
@@ -889,8 +900,7 @@ footer{
                   height:400px;
                   margin: auto;
                  }         
-}  
-                  
+}                    
 @media all and (max-width: 850px ) {
 
     .grid-container-product  {
@@ -905,5 +915,20 @@ footer{
             .grid-container-product iframe {
                 width:450px;
                 height:260px;
+               }
+}
+@media all and (max-width: 500px ) {
+    .grid-container-product  {
+        flex-direction: column;
+        gap: 10px;
+        height: 530px;
+    }
+            .grid-container-product img  {
+             width:350px;
+             height:260px;
+            }
+            .grid-container-product iframe {
+                width:320px;
+                height:220px;
                }
 }
